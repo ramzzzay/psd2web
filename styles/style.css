@@ -258,12 +258,12 @@ div.products span {
 }
 
 #q{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #w {
   margin-top: 8px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #e{
@@ -283,19 +283,11 @@ div.products div.mini-flex-container {
 
 div.mini-flex-container div.item {
   float:right;
-  line-height: 50px; /* TODO: Решил вопрос через повышения  */
+  line-height: 30px;
   text-transform: uppercase;
   text-align: center;
   margin: 0 5px;
   background-color: #e2e2e2;
-  -webkit-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 3px 3px 3px 3px;
   border: 0.1px solid #e2e2e2;
 }
-
-/*div.products div.flex-box div.mini-flex-container div.item {
-  padding: 40px;
-  height: 30px
-  margin: 30px;
-  background-color: #e2e2e2;
-  -webkit-border-radius: 10px 0px 10px 10px;
-}*/
