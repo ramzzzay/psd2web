@@ -282,7 +282,6 @@ div.products div.mini-flex-container {
 }
 
 div.mini-flex-container div.item {
-  float:right;
   line-height: 30px;
   text-transform: uppercase;
   text-align: center;
@@ -290,6 +289,7 @@ div.mini-flex-container div.item {
   background-color: #e2e2e2;
   -webkit-border-radius: 3px 3px 3px 3px;
   border: 0.1px solid #e2e2e2;
+  padding: 0 10px;
 }
 
 footer {
