@@ -214,7 +214,7 @@ div.flex-container {
   display: flex;
   flex-grow: 1;
   height: 700px;
-  padding: 0 20% 0 20%;
+  padding: 50px 20% 0 20%;
   align-items: center;
   margin-top: -200px;
   text-align: left;
