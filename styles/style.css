@@ -13,7 +13,7 @@ div.content {
   position: relative;
   background-color: #ebebeb;
   padding-top: 20px;
-  margin: 120px;
+  margin: 120px 120px 50px 120px;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
@@ -294,5 +294,6 @@ div.mini-flex-container div.item {
 
 footer {
   color: white;
-
+  position: static;
+  margin-bottom: 50px;
 }
