@@ -245,6 +245,7 @@ div.flex-container div.item div.text {
   text-decoration: none;
   color: #373435;
   padding-left: 3%;
+  text-transform: uppercase;
 }
 
 .read-more-btn span {
