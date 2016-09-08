@@ -84,6 +84,8 @@ a.first:hover {
 }
 
 div.banner {
+  background-image: url("../images/banner-red-2.jpg");
+  background-position: 79% 17%;
   background-color: #ed3237;
   padding: 100px;
   margin: 30px;
@@ -220,15 +222,14 @@ div.flex-container {
 
 div.flex-container div.item {
   min-width: 150px;
-  max-width: 200px;
+  max-width: 250px;
   margin: auto;
   background-color: #e2e2e2;
   -webkit-border-radius: 10px 0px 10px 10px;
 }
 
-div.flex-container div.item div.picture {
-  background-color:red;
-  height: 70px;
+div.flex-container div.item img.picture {
+  width: 100%;
 }
 
 div.flex-container div.item h3{
