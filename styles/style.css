@@ -112,7 +112,6 @@ a.border {
   text-decoration: none;
   color: white;
   padding: 5px;
-  z-index: 2;
 }
 
 .read-More-Panel {
@@ -132,7 +131,6 @@ a.border {
 div.read-More-Row:nth-of-type(2n+1){
   font-size: 0.5em;
   min-width: 42%;
-  color: lime;
 }
 
 .lines:last-child {
@@ -172,7 +170,7 @@ div.read-More-Row:nth-of-type(2n+1){
 .tg th#a,th#b,th#c{
   color: white;
   background-color: #373435;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .table-head:nth-child(even){
