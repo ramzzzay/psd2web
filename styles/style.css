@@ -72,7 +72,7 @@ a.first {
 }
 
 a:hover {
-  color: white;
+  color: orange;
 }
 
 a.first:hover {
@@ -139,6 +139,7 @@ a.link-decorator {
 
 .about-panel .about-panel-header .item {
   margin: auto;
+  margin-bottom: -50px;
 }
 
 .about-panel .about-panel-header .item:nth-child(odd) {
@@ -146,6 +147,8 @@ a.link-decorator {
   background-color: #373435;
   font-size: 2em;
   padding: 20px;
+  border-radius: 10px 0px 10px 10px;
+  -moz-border-radius: 10px 0px 10px 10px;
   -webkit-border-radius: 10px 0px 10px 10px;
 }
 
@@ -153,16 +156,20 @@ a.link-decorator {
   font-size: 1.2em;
   text-transform: uppercase;
   font-weight: bold;
+  padding-right: 30px;
+  padding-bottom: 50px;
 }
 
 .about-panel .about-panel-row {
   display: flex;
-  padding: 15px 35px;
+  padding: 0 35px;
 }
 
 .about-panel .about-panel-row .item {
   margin: auto;
   color: #919191;
+  text-align: left;
+  padding-left: 110px;
 }
 
 .about-panel .about-panel-btns {
@@ -174,13 +181,14 @@ a.link-decorator {
   margin: auto;
   padding: 15px 35px;
   font-weight: bold;
+  padding-left: 70px;
 }
 
 .more-info-btn {
   text-transform: uppercase;
   text-decoration: none;
   color: #373435;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .more-info-btn span {
