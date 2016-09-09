@@ -14,21 +14,9 @@ div.content {
   position: relative;
   background-color: #ebebeb;
   padding-top: 20px;
-  /*margin: 120px 120px 50px 120px;*/
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
-}
-
-.border {
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-
-
-  -webkit-box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
-  -moz-box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
-  box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
 }
 
 .shadow {
@@ -105,7 +93,7 @@ div.about h1 {
   margin-bottom: 15px;
 }
 
-a.link-decorator { 
+a.link-decorator {
   background-color: #ed3237;
   text-decoration: none;
   color: white;
@@ -210,6 +198,15 @@ div.flex-container div.item {
   margin: auto;
   background-color: #e2e2e2;
   -webkit-border-radius: 10px 0px 10px 10px;
+
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+
+
+  -webkit-box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
+  box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
 }
 
 div.flex-container div.item img.picture {
