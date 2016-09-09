@@ -130,6 +130,25 @@ a.link-decorator {
   width: 40%;
 }
 
+
+/* TODO: Rewrite read-more-panel to float */
+
+
+.read-more-panel-float {
+  position: static;
+  margin-bottom: 50px;
+}
+
+.read-more-panel-float .read-more-row-float {
+  margin: auto;
+  float: left;
+  margin: 0 10px;
+}
+
+.read-more-panel-float .read-more-row-float:nth-child(odd) {
+  width: 40%;
+}
+
 .lines:last-child {
   padding-right: 3%;
 }
