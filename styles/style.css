@@ -61,10 +61,10 @@ h1{
 	position: relative;
   margin-top: 20px;
   margin-left: 50px;
+  margin-bottom: 5px;
   border-top: 1px solid #d3d3d3;
   border-bottom: 1px solid #d3d3d3;
   text-decoration: none;
-  padding: 5px;
 }
 
 a.first {
@@ -79,7 +79,7 @@ a.first:hover {
   color: pink;
 }
 
-div.banner {
+.banner {
   background-image: url("../images/banner-red-2.jpg");
   background-position: 79% 17%;
   background-color: #ed3237;
@@ -88,17 +88,17 @@ div.banner {
   margin-bottom: 70px;
 }
 
-div.home h1 {
+.home h1 {
   font-size: 3em;
   margin-bottom: 15px;
 }
 
-div.text {
+.text {
   color: #919191;
   padding-bottom: 50px;
 }
 
-div.about h1 {
+.about h1 {
   font-size: 3em;
   margin-bottom: 15px;
 }
