@@ -105,7 +105,7 @@ div.about h1 {
   margin-bottom: 15px;
 }
 
-a.border { /* TODO: rename to link-decorator */
+a.link-decorator { 
   background-color: #ed3237;
   text-decoration: none;
   color: white;
