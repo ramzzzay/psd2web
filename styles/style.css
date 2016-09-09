@@ -219,8 +219,9 @@ a.link-decorator {
   box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
 }
 
-.serices-panel .item .picture {
+.serices-panel .item img {
   width: 100%;
+  padding-bottom: 15px;
 }
 
 .serices-panel .item h3{
