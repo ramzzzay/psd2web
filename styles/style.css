@@ -19,6 +19,17 @@ div.content {
   -webkit-border-radius: 10px;
 }
 
+.full-round-border {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+
+
+  -webkit-box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
+  box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
+}
+
 .shadow {
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
