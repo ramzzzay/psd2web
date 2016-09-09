@@ -154,9 +154,6 @@ a.link-decorator {
   background-color: #373435;
   font-size: 2em;
   padding: 20px;
-  border-radius: 10px 0px 10px 10px;
-  -moz-border-radius: 10px 0px 10px 10px;
-  -webkit-border-radius: 10px 0px 10px 10px;
 }
 
 .about-panel .about-panel-header .item:nth-child(even) {
