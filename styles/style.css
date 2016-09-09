@@ -30,6 +30,15 @@ h1{
   box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
 }
 
+.half-round-border {
+  border-radius: 10px 0px 10px 10px;
+  -moz-border-radius: 10px 0px 10px 10px;
+  -webkit-border-radius: 10px 0px 10px 10px;
+  -webkit-box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
+  box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
+}
+
 .shadow {
   border-radius: 10px;
   -moz-border-radius: 10px;
@@ -209,16 +218,6 @@ a.link-decorator {
 .serices-panel .item {
   margin: 30px;
   background-color: #e2e2e2;
-  -webkit-border-radius: 10px 0px 10px 10px;
-
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-
-
-  -webkit-box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
-  -moz-box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
-  box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
 }
 
 .serices-panel .item img {
