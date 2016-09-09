@@ -268,7 +268,7 @@ a.link-decorator {
 .products .products-panel {
   display: flex;
   height: 30px;
-  padding: 0 20% 0 20%;
+  padding: 0 20%;
   align-items: center;
   justify-content: center;
   margin-top: -200px;
@@ -282,7 +282,7 @@ a.link-decorator {
   text-align: center;
   margin: 0 5px;
   background-color: #e2e2e2;
-  -webkit-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px;
   border: 0.1px solid #e2e2e2;
   padding: 0 10px;
 }
