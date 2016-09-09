@@ -192,7 +192,7 @@ a.link-decorator {
   padding: 0 3% 3% 3%;
 }
 
-.flex-container {
+.serices-panel {
   display: flex;
   flex-grow: 1;
   height: 700px;
@@ -202,7 +202,7 @@ a.link-decorator {
   text-align: left;
 }
 
-.flex-container .item {
+.serices-panel .item {
   min-width: 150px;
   max-width: 250px;
   margin: auto;
@@ -219,16 +219,16 @@ a.link-decorator {
   box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
 }
 
-.flex-container .item .picture {
+.serices-panel .item .picture {
   width: 100%;
 }
 
-.flex-container .item h3{
+.serices-panel .item h3{
   text-transform: uppercase;
   padding-left: 3%;
 }
 
-.flex-container .item .text {
+.serices-panel .item .text {
   padding-bottom: 20px;
   padding-left: 3%;
 }
