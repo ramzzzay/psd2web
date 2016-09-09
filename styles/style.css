@@ -264,7 +264,7 @@ a.link-decorator {
   margin-top: 5px;
 }
 
-.products .mini-flex-container {
+.products .products-panel {
   display: flex;
   height: 30px;
   padding: 0 20% 0 20%;
@@ -275,7 +275,7 @@ a.link-decorator {
   margin: 50px;
 }
 
-.mini-flex-container .item {
+.products-panel .item {
   line-height: 30px;
   text-transform: uppercase;
   text-align: center;
