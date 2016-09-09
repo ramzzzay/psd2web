@@ -212,6 +212,12 @@ a.link-decorator {
   margin-top: -3%;
 }
 
+@media (max-width: 1080px) {
+  .serices-panel {
+    padding: 0;
+  }
+}
+
 .serices-panel .item {
   margin: 30px;
   background-color: #e2e2e2;
@@ -224,18 +230,18 @@ a.link-decorator {
 
 .serices-panel .item h3{
   text-transform: uppercase;
-  padding-left: 3%;
+  padding-left: 10%;
 }
 
 .serices-panel .item .text {
   padding-bottom: 20px;
-  padding-left: 3%;
+  padding-left: 10%;
 }
 
 .read-more-btn {
   text-decoration: none;
   color: #373435;
-  padding-left: 3%;
+  padding-left: 10%;
   text-transform: uppercase;
 }
 
