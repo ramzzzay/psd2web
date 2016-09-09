@@ -134,12 +134,42 @@ div.read-More-Panel-flex div.read-More-Row-flex:nth-child(odd) {
 }
 
 
-@media (max-width: 420px) {
-  .readMoreRow {
-    display: block;
-    width: 100%;
-  }
+div.about-panel div.about-panel-header {
+  display: flex;
+  padding: 15px 35px;
 }
+
+div.about-panel div.about-panel-header div.item {
+  margin: auto;
+}
+
+div.about-panel div.about-panel-header div.item:nth-child(odd) {
+  color: white;
+  background-color: #373435;
+  font-size: 2em;
+  padding: 20px;
+}
+
+div.about-panel div.about-panel-row {
+  display: flex;
+  padding: 15px 35px;
+}
+
+div.about-panel div.about-panel-row div.item {
+  margin: auto;
+}
+
+div.about-panel div.about-panel-btns {
+  display: flex;
+  padding: 15px 35px;
+}
+
+div.about-panel div.about-panel-btns div.item {
+  margin: auto;
+  padding: 15px 35px;
+}
+
+
 
 .tg  {
   text-align: left;
