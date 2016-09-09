@@ -148,6 +148,13 @@ div.about-panel div.about-panel-header div.item:nth-child(odd) {
   background-color: #373435;
   font-size: 2em;
   padding: 20px;
+  -webkit-border-radius: 10px 0px 10px 10px;
+}
+
+div.about-panel div.about-panel-header div.item:nth-child(even) {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 div.about-panel div.about-panel-row {
@@ -157,6 +164,7 @@ div.about-panel div.about-panel-row {
 
 div.about-panel div.about-panel-row div.item {
   margin: auto;
+  color: #919191;
 }
 
 div.about-panel div.about-panel-btns {
@@ -167,52 +175,8 @@ div.about-panel div.about-panel-btns {
 div.about-panel div.about-panel-btns div.item {
   margin: auto;
   padding: 15px 35px;
+  font-weight: bold;
 }
-
-
-
-.tg  {
-  text-align: left;
-  border-collapse:collapse;
-  border-spacing:0;
-  vertical-align:top;}
-.tg td{
-  font-size:14px;
-  padding:20px 20px;
-  overflow:hidden;
-  word-break:normal;
-}
-.tg th{font-size:14px;
-  font-weight:normal;
-  padding:20px 20px;
-  overflow:hidden;
-  word-break:normal;
-}
-
-.tg th#a,th#b,th#c{
-  color: white;
-  background-color: #373435;
-  font-size: 2em;
-}
-
-.table-head:nth-child(even){
-  font-size: 1.2em;
-  text-transform: uppercase;
-}
-
-.table-head:nth-child(odd){
-  -webkit-border-radius: 10px 0px 10px 10px;
-}
-
-.table-cell{
-  color: #919191;
-  text-overflow: ellipsis;
-}
-
-.tg-wrap{
-  margin-left: 3%;
-}
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}
 
 .more-info-btn {
   text-transform: uppercase;
