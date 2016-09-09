@@ -113,23 +113,16 @@ a.border { /* TODO: rename to link-decorator */
   -webkit-border-radius: 5px 5px;
 }
 
-.read-More-Panel {
-  display: table;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 50px;
+div.read-More-Panel-flex {
+  display: flex;
 }
 
-.read-More-Row {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 1em;
+div.read-More-Panel-flex div.read-More-Row-flex {
+  margin: auto;
 }
 
-div.read-More-Row:nth-of-type(2n+1){
-  font-size: 0.5em;
-  min-width: 42%;
+div.read-More-Panel-flex div.read-More-Row-flex:nth-child(odd) {
+  width: 40%;
 }
 
 .lines:last-child {
