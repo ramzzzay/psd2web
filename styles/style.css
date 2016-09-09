@@ -10,7 +10,7 @@ h1{
   text-transform: uppercase;
 }
 
-div.content {
+.content {
   position: relative;
   background-color: #ebebeb;
   padding-top: 20px;
@@ -31,9 +31,9 @@ div.content {
 }
 
 .shadow {
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 
   border: 0px solid #000000;
 
@@ -42,7 +42,7 @@ div.content {
   box-shadow: -3px 6px 0px 0px rgba(0,0,0,0.18);
 }
 
-span.hat {
+.hat {
   background-color: #ebebeb;
   font-size: 70px;
   position: relative;
@@ -108,18 +108,18 @@ a.link-decorator {
   text-decoration: none;
   color: white;
   padding: 5px;
-  -webkit-border-radius: 5px 5px;
+  -webkit-border-radius: 5px;
 }
 
-div.read-More-Panel-flex {
+.read-more-panel {
   display: flex;
 }
 
-div.read-More-Panel-flex div.read-More-Row-flex {
+.read-more-panel .read-more-row {
   margin: auto;
 }
 
-div.read-More-Panel-flex div.read-More-Row-flex:nth-child(odd) {
+.read-more-panel .read-more-row:nth-child(odd) {
   width: 40%;
 }
 
@@ -132,16 +132,16 @@ div.read-More-Panel-flex div.read-More-Row-flex:nth-child(odd) {
 }
 
 
-div.about-panel div.about-panel-header {
+.about-panel .about-panel-header {
   display: flex;
   padding: 15px 35px;
 }
 
-div.about-panel div.about-panel-header div.item {
+.about-panel .about-panel-header .item {
   margin: auto;
 }
 
-div.about-panel div.about-panel-header div.item:nth-child(odd) {
+.about-panel .about-panel-header .item:nth-child(odd) {
   color: white;
   background-color: #373435;
   font-size: 2em;
@@ -149,28 +149,28 @@ div.about-panel div.about-panel-header div.item:nth-child(odd) {
   -webkit-border-radius: 10px 0px 10px 10px;
 }
 
-div.about-panel div.about-panel-header div.item:nth-child(even) {
+.about-panel .about-panel-header .item:nth-child(even) {
   font-size: 1.2em;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-div.about-panel div.about-panel-row {
+.about-panel .about-panel-row {
   display: flex;
   padding: 15px 35px;
 }
 
-div.about-panel div.about-panel-row div.item {
+.about-panel .about-panel-row .item {
   margin: auto;
   color: #919191;
 }
 
-div.about-panel div.about-panel-btns {
+.about-panel .about-panel-btns {
   display: flex;
   padding: 15px 35px;
 }
 
-div.about-panel div.about-panel-btns div.item {
+.about-panel .about-panel-btns .item {
   margin: auto;
   padding: 15px 35px;
   font-weight: bold;
@@ -187,12 +187,12 @@ div.about-panel div.about-panel-btns div.item {
   color: red;
 }
 
-.content div.end-of-topic {
+.content .end-of-topic {
   color: #919191;
   padding: 0 3% 3% 3%;
 }
 
-div.flex-container {
+.flex-container {
   display: flex;
   flex-grow: 1;
   height: 700px;
@@ -202,7 +202,7 @@ div.flex-container {
   text-align: left;
 }
 
-div.flex-container div.item {
+.flex-container .item {
   min-width: 150px;
   max-width: 250px;
   margin: auto;
@@ -219,16 +219,16 @@ div.flex-container div.item {
   box-shadow: -14px 12px 0px 0px rgba(0,0,0,0.18);
 }
 
-div.flex-container div.item img.picture {
+.flex-container .item .picture {
   width: 100%;
 }
 
-div.flex-container div.item h3{
+.flex-container .item h3{
   text-transform: uppercase;
   padding-left: 3%;
 }
 
-div.flex-container div.item div.text {
+.flex-container .item .text {
   padding-bottom: 20px;
   padding-left: 3%;
 }
@@ -245,7 +245,7 @@ div.flex-container div.item div.text {
   color: red;
 }
 
-div.products span {
+.products span {
   text-transform: uppercase;
   color: #ed3237;
 }
@@ -264,7 +264,7 @@ div.products span {
   margin-top: 5px;
 }
 
-div.products div.mini-flex-container {
+.products .mini-flex-container {
   display: flex;
   height: 30px;
   padding: 0 20% 0 20%;
@@ -275,7 +275,7 @@ div.products div.mini-flex-container {
   margin: 50px;
 }
 
-div.mini-flex-container div.item {
+.mini-flex-container .item {
   line-height: 30px;
   text-transform: uppercase;
   text-align: center;
