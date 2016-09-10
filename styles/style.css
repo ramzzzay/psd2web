@@ -110,24 +110,40 @@ a.link-decorator {
 
 /* TODO: Rewrite read-more-panel to float */
 
-.read-more-panel-float {
-    position: static;
-    margin-bottom: 50px;
+.read-more-row-float {
+  display: inline-block;
+  float: left;
+  margin: 2% 2%;
 }
-.read-more-panel-float .read-more-row-float {
-    margin: auto;
-    float: left;
-    margin: 0 10px;
+
+.read-more-about-btn {
+  position: relative;
+  top: 40px;
+  left: 10px;
+  width: auto;
+  margin: 0 3%;
 }
-.read-more-panel-float .read-more-row-float:nth-child(odd) {
-    width: 40%;
+.read-more-row-float:nth-child(odd) {
+  float: left;
+  width: 40%;
+}
+
+/* TODO: WTF!? */
+.read-more-row-float.left-line {
+  margin-right: 0%;
+}
+
+.lines:first-child {
+  margin-right: 0%;
+  padding-left: 3%;
+  margin-right: 0%;
 }
 .lines:last-child {
-    padding-right: 3%;
+  margin-left: 1%;
+  padding-right: 0px;
+  width: 42%;
 }
-.lines:first-child {
-    padding-left: 3%;
-}
+
 .about-panel .about-panel-header {
     display: flex;
     padding: 15px 35px;
