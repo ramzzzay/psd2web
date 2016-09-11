@@ -206,10 +206,23 @@ a.link-decorator {
     margin-top: -3%;
 }
 @media (max-width: 1080px) {
+  .read-more-row-float:nth-child(2n+1){
+    width: 35%;
+  }
+  .read-more-about-btn {
+    top:22px;
+  }
+  .lines:last-child {
+    width: 40%;
+  }
+  .read-more-row-float.left-line {
+    margin-right: -2%;
+  }
     .serices-panel {
         padding: 0;
     }
 }
+
 .serices-panel .item {
     margin: 30px;
     background-color: #e2e2e2;
