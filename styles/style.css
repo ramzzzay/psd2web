@@ -96,11 +96,18 @@ a.link-decorator {
     color: white;
     padding: 5px;
     -webkit-border-radius: 5px;
+    margin-right: 44px;
 }
 .read-more-panel {
     display: flex;
     margin-bottom: 50px;
 }
+
+/* fix for IE 11
+.read-more-panel .read-more-row.link {
+  position: relative;
+  top: 10px
+}*/
 .read-more-panel .read-more-row {
     margin: auto;
 }
@@ -119,7 +126,7 @@ a.link-decorator {
 .read-more-about-btn {
   position: relative;
   top: 40px;
-  left: 10px;
+  left: 30px;
   width: auto;
   margin: 0 3%;
 }
@@ -141,50 +148,29 @@ a.link-decorator {
 .lines:last-child {
   margin-left: 1%;
   padding-right: 0px;
-  width: 42%;
+  /*width: 42%;*/
 }
 
-.about-panel .about-panel-header {
-    display: flex;
-    padding: 15px 35px;
+.about-panel {
+  display: flex;
+  flex-direction: row;
 }
-.about-panel .about-panel-header .item {
-    margin: auto;
-    margin-bottom: -50px;
+
+.about-panel .about-panel-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 15px 35px;
 }
-.about-panel .about-panel-header .item:nth-child(odd) {
-    color: white;
-    background-color: #373435;
-    font-size: 2em;
-    padding: 20px;
+
+.icon {
+  color: white;
+  background-color: #373435;
+  font-size: 2em !important;
+  padding: 20px;
 }
-.about-panel .about-panel-header .item:nth-child(even) {
-    font-size: 1.2em;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding-right: 30px;
-    padding-bottom: 50px;
-}
-.about-panel .about-panel-row {
-    display: flex;
-    padding: 0 35px;
-}
-.about-panel .about-panel-row .item {
-    margin: auto;
-    color: #919191;
-    text-align: left;
-    padding-left: 110px;
-}
-.about-panel .about-panel-btns {
-    display: flex;
-    padding: 15px 35px;
-}
-.about-panel .about-panel-btns .item {
-    margin: auto;
-    padding: 15px 35px;
-    font-weight: bold;
-    padding-left: 60px;
-}
+
 .more-info-btn {
     text-transform: uppercase;
     text-decoration: none;
@@ -205,23 +191,7 @@ a.link-decorator {
     padding: 0% 20%;
     margin-top: -3%;
 }
-@media (max-width: 1080px) {
-  .read-more-row-float:nth-child(2n+1){
-    width: 35%;
-  }
-  .read-more-about-btn {
-    top:22px;
-  }
-  .lines:last-child {
-    width: 40%;
-  }
-  .read-more-row-float.left-line {
-    margin-right: -2%;
-  }
-    .serices-panel {
-        padding: 0;
-    }
-}
+
 
 .serices-panel .item {
     margin: 30px;
@@ -289,4 +259,27 @@ footer {
     color: white;
     position: static;
     margin-top: 50px
+}
+
+@media (max-width: 1080px) {
+  .read-more-row-float:nth-child(2n+1){
+    width: 35%;
+  }
+  .read-more-about-btn {
+    margin-right: 2%;
+    top:22px;
+  }
+  .lines:last-child {
+    width: 35%;
+  }
+  .read-more-row-float.left-line {
+    margin-right: -2%;
+  }
+
+  .link-decorator {
+    margin-right: 0px;
+  }
+    .serices-panel {
+        padding: 0;
+    }
 }
