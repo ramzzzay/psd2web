@@ -142,7 +142,7 @@ a.link-decorator-float {
     width: 40%;
 }
 
-.read-more-row-float {
+.read-more-float {
   display: inline-block;
   float: left;
   margin: 2% 0%;
@@ -155,13 +155,13 @@ a.link-decorator-float {
   width: auto;
   margin: 0 3%;
 }
-.read-more-row-float:nth-child(odd) {
+.read-more-float:nth-child(odd) {
   float: left;
   width: 40%;
 }
 
 /* TODO: WTF!? */
-.read-more-row-float.left-line {
+.read-more-float.left-line {
   margin-right: 0%;
 }
 
@@ -336,7 +336,7 @@ footer {
 }
 
 @media (max-width: 1080px) {
-  .read-more-row-float:nth-child(2n+1){
+  .read-more-float:nth-child(2n+1){
     width: 35%;
   }
   .read-more-about-btn {
@@ -346,7 +346,7 @@ footer {
   .lines:last-child {
     width: 35%;
   }
-  .read-more-row-float.left-line {
+  .read-more-float.left-line {
     margin-right: -2%;
   }
 
