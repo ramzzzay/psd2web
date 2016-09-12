@@ -253,7 +253,7 @@ a.link-decorator-float {
     color: #919191;
     padding: 0 3% 3% 3%;
 }
-.serices-panel {
+.services-panel {
     display: flex;
     align-items: center;
     text-align: left;
@@ -262,19 +262,19 @@ a.link-decorator-float {
 }
 
 
-.serices-panel .item {
+.services-panel .item {
     margin: 30px;
     background-color: #e2e2e2;
 }
-.serices-panel .item img {
+.services-panel .item img {
     width: 100%;
     padding-bottom: 15px;
 }
-.serices-panel .item h3 {
+.services-panel .item h3 {
     text-transform: uppercase;
     padding-left: 10%;
 }
-.serices-panel .item .text {
+.services-panel .item .text {
     /*For dots at end*/
     white-space: nowrap;
     width: 250px;
@@ -282,7 +282,7 @@ a.link-decorator-float {
     overflow: hidden;
     text-overflow: ellipsis;
     /*For dots at end*/
-    
+
     padding-bottom: 10px;
     padding-left: 10%;
 }
@@ -368,7 +368,7 @@ footer {
     left: 50px;
     bottom: 25px;
   }
-    .serices-panel {
+    .services-panel {
         padding: 0;
     }
 }
