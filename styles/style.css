@@ -298,6 +298,13 @@ footer {
   .about-panel .about-panel-column {
     padding: 15px 10px;
   }
+
+  .menu a {
+    margin-left: 25px;
+    float: left;
+    left: 50px;
+    bottom: 25px;
+  }
     .serices-panel {
         padding: 0;
     }
