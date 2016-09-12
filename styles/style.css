@@ -96,6 +96,14 @@ a.link-decorator {
     color: white;
     padding: 5px;
     -webkit-border-radius: 5px;
+}
+
+a.link-decorator-float {
+    background-color: #ed3237;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    -webkit-border-radius: 5px;
     margin-right: 44px;
 }
 .read-more-panel {
@@ -114,8 +122,6 @@ a.link-decorator {
 .read-more-panel .read-more-row:nth-child(odd) {
     width: 40%;
 }
-
-/* TODO: Rewrite read-more-panel to float */
 
 .read-more-row-float {
   display: inline-block;
@@ -142,10 +148,19 @@ a.link-decorator {
 
 .lines:first-child {
   margin-right: 0%;
+}
+.lines:last-child {
+  margin-left: 1%;
+  padding-right: 0px;
+  /*width: 42%;*/
+}
+
+.lines-float:first-child {
+  margin-right: 0%;
   padding-left: 3%;
   margin-right: 0%;
 }
-.lines:last-child {
+.lines-float:last-child {
   margin-left: 1%;
   padding-right: 0px;
   /*width: 42%;*/
