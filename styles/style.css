@@ -126,13 +126,13 @@ a.link-decorator-float {
 .read-more-row-float {
   display: inline-block;
   float: left;
-  margin: 2% 2%;
+  margin: 2% 0%;
 }
 
 .read-more-about-btn {
   position: relative;
   top: 40px;
-  left: 30px;
+  left: 25px;
   width: auto;
   margin: 0 3%;
 }
@@ -161,9 +161,7 @@ a.link-decorator-float {
   margin-right: 0%;
 }
 .lines-float:last-child {
-  margin-left: 1%;
   padding-right: 0px;
-  /*width: 42%;*/
 }
 
 .about-panel {
