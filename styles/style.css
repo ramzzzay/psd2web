@@ -165,17 +165,56 @@ a.link-decorator-float {
 .lines:last-child {
   margin-left: 1%;
   padding-right: 0px;
-  /*width: 42%;*/
 }
 
 .lines-float:first-child {
   margin-right: 0%;
   padding-left: 3%;
-  margin-right: 0%;
 }
 .lines-float:last-child {
   padding-right: 0px;
 }
+
+/*Read more panel with background on dots*/
+
+.read-more-row-dots {
+  display: inline-block;
+  float: left;
+  margin: 2% 0%;
+}
+
+.read-more-row-dots:nth-child(odd) {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAKCAYAAAB10jRKAAAAFUlEQVQImWNgYGBgYJg3b95/BiIBAHinAto4mgYoAAAAAElFTkSuQmCC) repeat;
+  background-position: left;
+  float: left;
+  width: 38%;
+  padding-bottom: 10px;
+  height: 17px;
+}
+
+.read-more-about-btn-dots {
+  position: relative;
+  top: 30px;
+  left: 25px;
+  width: auto;
+  margin: 0 3%;
+}
+
+/* TODO: WTF!? */
+.read-more-row-dots.left-line {
+  margin-right: 0%;
+}
+
+.lines-dots:first-child {
+  margin-left: 3%;
+  margin-right: 0%;
+  padding-left: 3%;
+}
+.lines-dots:last-child {
+  padding-right: 0px;
+}
+
+/*Read more panel with background on dots end*/
 
 .about-panel {
   display: flex;
