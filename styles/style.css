@@ -105,7 +105,7 @@ a.first:hover {
 .about-header {
   position: relative;
   bottom: 20px;
-  width: 155px;
+  width: 180px;
   margin-bottom: -5px;
 }
 
@@ -206,18 +206,12 @@ a.link-decorator-float {
   margin: 0 3%;
 }
 
-/* TODO: WTF!? */
-.read-more-dots.left-line {
-  margin-right: 0%;
-}
-
 .lines-dots:first-child {
-  margin-left: 3%;
-  margin-right: 0%;
-  padding-left: 3%;
+  margin-left: 2%;
+  padding-left: 2%;
 }
 .lines-dots:last-child {
-  padding-right: 0px;
+  padding-right: 50px;
 }
 
 /*Read more panel with background on dots end*/
@@ -226,6 +220,7 @@ a.link-decorator-float {
   display: flex;
   flex-direction: row;
   margin-left: 1%;
+  margin-bottom: 50px;
 }
 
 .about-panel .about-panel-column {
@@ -280,7 +275,15 @@ a.link-decorator-float {
     padding-left: 10%;
 }
 .serices-panel .item .text {
-    padding-bottom: 20px;
+    /*For dots at end*/
+    white-space: nowrap;
+    width: 250px;
+    height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*For dots at end*/
+    
+    padding-bottom: 10px;
     padding-left: 10%;
 }
 .read-more-btn {
@@ -288,10 +291,11 @@ a.link-decorator-float {
     color: #373435;
     padding-left: 10%;
     text-transform: uppercase;
+    font-weight: bold;
 }
 .read-more-btn span {
-    text-transform: uppercase;
     color: red;
+    margin-left: 5px;
 }
 .products span {
     text-transform: uppercase;
