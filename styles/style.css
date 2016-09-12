@@ -135,6 +135,7 @@ a.link-decorator-float {
   position: relative;
   top: 10px
 }*/
+
 .read-more-panel .read-more-row {
     margin: auto;
 }
@@ -183,13 +184,13 @@ a.link-decorator-float {
 
 /*Read more panel with background on dots*/
 
-.read-more-dots {
+.top-read-more {
   display: inline-block;
   float: left;
   margin: 2% 0%;
 }
 
-.read-more-dots:nth-child(odd) {
+.top-read-more:nth-child(odd) {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAKCAYAAAB10jRKAAAAFUlEQVQImWNgYGBgYJg3b95/BiIBAHinAto4mgYoAAAAAElFTkSuQmCC) repeat;
   background-position: left;
   float: left;
@@ -198,7 +199,7 @@ a.link-decorator-float {
   height: 20px;
 }
 
-.read-more-about-btn-dots {
+.top-read-more-about-btn {
   position: relative;
   top: 35px;
   left: 25px;
@@ -206,11 +207,11 @@ a.link-decorator-float {
   margin: 0 3%;
 }
 
-.lines-dots:first-child {
+.top-lines:first-child {
   margin-left: 2%;
   padding-left: 2%;
 }
-.lines-dots:last-child {
+.top-lines:last-child {
   padding-right: 50px;
 }
 
@@ -278,7 +279,7 @@ a.link-decorator-float {
     /*For dots at end*/
     white-space: nowrap;
     width: 250px;
-    height: 80px;
+    height: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
     /*For dots at end*/
