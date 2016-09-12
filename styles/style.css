@@ -1,4 +1,10 @@
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('SourceSansPro.otf');
+}
+
 body {
+    font-family: 'MyWebFont', Fallback, sans-serif;
     background-image: url("../images/background.png");
     background-color: #343434;
     text-align: center;
@@ -177,13 +183,13 @@ a.link-decorator-float {
 
 /*Read more panel with background on dots*/
 
-.read-more-row-dots {
+.read-more-dots {
   display: inline-block;
   float: left;
   margin: 2% 0%;
 }
 
-.read-more-row-dots:nth-child(odd) {
+.read-more-dots:nth-child(odd) {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAKCAYAAAB10jRKAAAAFUlEQVQImWNgYGBgYJg3b95/BiIBAHinAto4mgYoAAAAAElFTkSuQmCC) repeat;
   background-position: left;
   float: left;
@@ -201,7 +207,7 @@ a.link-decorator-float {
 }
 
 /* TODO: WTF!? */
-.read-more-row-dots.left-line {
+.read-more-dots.left-line {
   margin-right: 0%;
 }
 
