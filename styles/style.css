@@ -277,6 +277,13 @@ a.link-decorator-float {
 .services-panel .item h3 {
     text-transform: uppercase;
     padding-left: 10%;
+    height: 7px;
+    transition: height 0.7s;
+}
+
+.services-panel .item h3:active {
+  height: 50px;
+
 }
 .services-panel .item .text {
     /*For dots at end*/
@@ -289,7 +296,15 @@ a.link-decorator-float {
 
     padding-bottom: 10px;
     padding-left: 10%;
+    transition: white-space 0.7s, height 0.7s, overflow 0.7s;
 }
+
+.services-panel .item .text:active {
+    white-space: normal;
+    height: 90px;
+    overflow: visible;
+}
+
 .read-more-btn {
     text-decoration: none;
     color: #373435;
