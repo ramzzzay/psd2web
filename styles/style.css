@@ -279,6 +279,10 @@ footer {
   .link-decorator {
     margin-right: 0px;
   }
+
+  .about-panel .about-panel-column {
+    padding: 15px 10px;
+  }
     .serices-panel {
         padding: 0;
     }
