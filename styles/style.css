@@ -209,10 +209,9 @@ a.link-decorator {
 
 .top-read-more-about-btn {
   position: relative;
-  top: 35px;
   left: 2%;
   width: auto;
-  margin: 0 3%;
+  margin: 2% 3%;
 }
 
 .top-lines:first-child {
@@ -269,12 +268,12 @@ a.link-decorator {
     margin: 30px 0;
 }
 
-
 .services-panel .item {
     margin: 30px;
     background-color: #e2e2e2;
     margin: 0 30px;
 }
+
 .services-panel .item img {
     width: 100%;
     padding-bottom: 15px;
@@ -288,28 +287,9 @@ a.link-decorator {
     transition: height 0.7s;
 }
 
-.services-panel .item .topic-text:active {
-  height: 50px;
-
-}
 .services-panel .item .text {
-    /*For dots at end*/
-    white-space: nowrap;
-    width: 250px;
-    height: 15px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    /*For dots at end*/
-
     padding-bottom: 10px;
     padding-left: 10%;
-    transition: white-space 0.7s, height 0.7s, overflow 0.7s;
-}
-
-.services-panel .item .text:active {
-    white-space: normal;
-    height: 90px;
-    overflow: visible;
 }
 
 .read-more-btn {
