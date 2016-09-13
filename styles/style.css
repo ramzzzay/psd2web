@@ -176,13 +176,6 @@ a.link-decorator {
   margin-right: 0;
 }
 
-.lines:first-child {
-  margin-right: 0;
-}
-.lines:last-child {
-  margin-left: 1%;
-  padding-right: 0;
-}
 
 .lines-float:first-child {
   margin-right: 0;
@@ -244,6 +237,7 @@ a.link-decorator {
   background-color: #373435;
   font-size: 2em !important;
   padding: 20px;
+  float: left;
 }
 
 .more-info-btn {
@@ -269,7 +263,6 @@ a.link-decorator {
 }
 
 .services-panel .item {
-    margin: 30px;
     background-color: #e2e2e2;
     margin: 0 30px;
 }
@@ -370,8 +363,13 @@ footer {
   }
 
   .top-read-more-about-btn {
-    margin-right: 2%;
-    top:15px;
+    margin-right: 0;
+    top:0;
+    left: 3.3%;
+  }
+
+  .about-header {
+    width: 178px;
   }
 
   .top-lines:last-child {
@@ -399,6 +397,10 @@ footer {
 
   .services-panel .item {
     margin: auto;
+  }
+
+  .menu {
+    font-size: 20px;
   }
 
   .menu a {
