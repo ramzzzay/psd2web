@@ -280,6 +280,10 @@ a.link-decorator {
 #e {
     margin-top: 5px;
 }
+
+.products-box {
+  margin-bottom: 50px;
+}
 .products .products-panel {
     display: flex;
     height: 30px;
@@ -287,7 +291,6 @@ a.link-decorator {
     align-items: center;
     justify-content: center;
     text-align: left;
-    margin: 50px;
 }
 .products-panel .item {
     line-height: 30px;
