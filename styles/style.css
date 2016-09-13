@@ -22,34 +22,34 @@ a {
     position: relative;
     background-color: #ebebeb;
     padding-top: 20px;
-    border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
+    border-radius: 10px;
 }
 .full-round-border {
-    border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    -webkit-box-shadow: -14px 12px 0px 0px rgba(0, 0, 0, 0.18);
-    -moz-box-shadow: -14px 12px 0px 0px rgba(0, 0, 0, 0.18);
-    box-shadow: -14px 12px 0px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+    -webkit-box-shadow: -14px 12px 0 0 rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: -14px 12px 0 0 rgba(0, 0, 0, 0.18);
+    box-shadow: -14px 12px 0 0 rgba(0, 0, 0, 0.18);
 }
 .half-round-border {
-    border-radius: 10px 0px 10px 10px;
-    -moz-border-radius: 10px 0px 10px 10px;
-    -webkit-border-radius: 10px 0px 10px 10px;
-    -webkit-box-shadow: -9px 9px 0px 0px rgba(0, 0, 0, 0.18);
-    -moz-box-shadow: -9px 9px 0px 0px rgba(0, 0, 0, 0.18);
-    box-shadow: -9px 9px 0px 0px rgba(0, 0, 0, 0.18);
+    -moz-border-radius: 10px 0 10px 10px;
+    -webkit-border-radius: 10px 0 10px 10px;
+    border-radius: 10px 0 10px 10px;
+    -webkit-box-shadow: -9px 9px 0 0 rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: -9px 9px 0 0 rgba(0, 0, 0, 0.18);
+    box-shadow: -9px 9px 0 0 rgba(0, 0, 0, 0.18);
 }
 .shadow {
-    border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    border: 0px solid #000000;
-    -webkit-box-shadow: -3px 6px 0px 0px rgba(0, 0, 0, 0.18);
-    -moz-box-shadow: -3px 6px 0px 0px rgba(0, 0, 0, 0.18);
-    box-shadow: -3px 6px 0px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+    border: 0 solid #000000;
+    -webkit-box-shadow: -3px 6px 0 0 rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: -3px 6px 0 0 rgba(0, 0, 0, 0.18);
+    box-shadow: -3px 6px 0 0 rgba(0, 0, 0, 0.18);
 }
 .hat {
     background-color: #ebebeb;
@@ -119,14 +119,16 @@ a.link-decorator {
     color: white;
     padding: 5px;
     -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
 
-a.link-decorator-float {
+.link-decorator-float {
     background-color: #ed3237;
     text-decoration: none;
     color: white;
     padding: 5px;
     -webkit-border-radius: 5px;
+    border-radius: 5px;
     margin-right: 44px;
 }
 .read-more-panel {
@@ -148,9 +150,9 @@ a.link-decorator-float {
 }
 
 .read-more-float {
-  display: inline-block;
+  /*display: inline-block;*/
   float: left;
-  margin: 2% 0%;
+  margin: 2% 0;
 }
 
 .read-more-about-btn {
@@ -167,31 +169,30 @@ a.link-decorator-float {
 
 /* TODO: WTF!? */
 .read-more-float.left-line {
-  margin-right: 0%;
+  margin-right: 0;
 }
 
 .lines:first-child {
-  margin-right: 0%;
+  margin-right: 0;
 }
 .lines:last-child {
   margin-left: 1%;
-  padding-right: 0px;
+  padding-right: 0;
 }
 
 .lines-float:first-child {
-  margin-right: 0%;
+  margin-right: 0;
   padding-left: 3%;
 }
 .lines-float:last-child {
-  padding-right: 0px;
+  padding-right: 0;
 }
 
 /*Read more panel with background on dots*/
 
 .top-read-more {
-  display: inline-block;
   float: left;
-  margin: 2% 0%;
+  margin: 2% 0;
 }
 
 .top-read-more:nth-child(odd) {
@@ -199,8 +200,7 @@ a.link-decorator-float {
   background-position: left;
   float: left;
   width: 38%;
-  padding-bottom: 10px;
-  height: 20px;
+  height: 30px;
 }
 
 .top-read-more-about-btn {
@@ -261,7 +261,7 @@ a.link-decorator-float {
     display: flex;
     align-items: center;
     text-align: left;
-    padding: 0% 20%;
+    padding: 0 20%;
     margin-top: -3%;
 }
 
@@ -348,6 +348,7 @@ a.link-decorator-float {
     margin: 0 5px;
     background-color: #e2e2e2;
     -webkit-border-radius: 3px;
+    border-radius: 3px;
     border: 0.1px solid #e2e2e2;
     padding: 0 10px;
 }
@@ -357,7 +358,7 @@ footer {
     margin-top: 50px
 }
 
-a.top-link-decorator {
+.top-link-decorator {
   margin-left: -20px;
 
   background-color: #ed3237;
@@ -365,6 +366,7 @@ a.top-link-decorator {
   color: white;
   padding: 5px;
   -webkit-border-radius: 5px;
+  border-radius: 5px;
   margin-right: 44px;
 }
 
@@ -401,11 +403,11 @@ a.top-link-decorator {
   }
 
   .link-decorator {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .about-panel .about-panel-column {
-    padding: 15px 0px;
+    padding: 15px 0;
   }
 
   .menu a {
