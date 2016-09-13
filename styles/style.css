@@ -168,7 +168,7 @@ a.link-decorator {
 }
 
 /* TODO: WTF!? */
-.read-more-float.left-line {
+.read-more-float .left-line {
   margin-right: 0;
 }
 
@@ -274,14 +274,16 @@ a.link-decorator {
     width: 100%;
     padding-bottom: 15px;
 }
-.services-panel .item h3 {
+.services-panel .item .topic-text {
+    font-weight: bold;
     text-transform: uppercase;
     padding-left: 10%;
-    height: 7px;
+    height: 23px;
+    padding-top: 20px;
     transition: height 0.7s;
 }
 
-.services-panel .item h3:active {
+.services-panel .item .topic-text:active {
   height: 50px;
 
 }
