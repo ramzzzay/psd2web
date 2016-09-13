@@ -412,6 +412,10 @@ footer {
     padding: 15px 0;
   }
 
+  .services-panel .item {
+    margin: auto;
+  }
+
   .menu a {
     margin-left: 25px;
     float: left;
