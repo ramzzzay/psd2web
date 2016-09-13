@@ -282,6 +282,21 @@ a.link-decorator {
     font-weight: bold;
 }
 
+/*Experemental accordion*/
+
+.services-panel .item .item-content {
+  height: 50px;
+  visibility: hidden;
+  transition: height 1s;
+}
+
+.services-panel .item:hover .item-content {
+  height: 400px;
+  visibility: visible;
+}
+
+/*Experemental accordion*/
+
 .read-more-btn span {
     color: red;
     margin-left: 5px;
