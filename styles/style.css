@@ -282,7 +282,14 @@ a.link-decorator {
     font-weight: bold;
 }
 
-/*Experemental accordion*/
+/*Experemental Accordion */
+
+.hl {
+  position: relative;
+  top: 24px;
+  font-weight: bold;
+  padding-bottom: 500px;
+}
 
 .services-panel .item .item-content {
   height: 50px;
@@ -290,12 +297,12 @@ a.link-decorator {
   transition: height 1s;
 }
 
-.services-panel .item:hover .item-content {
+.services-panel .item .hl:checked + .item-content {
   height: 400px;
   visibility: visible;
 }
 
-/*Experemental accordion*/
+/*Experemental Accordion */
 
 .read-more-btn span {
     color: red;
