@@ -261,6 +261,10 @@ a.link-decorator {
     padding-bottom: 15px;
 }
 
+.services-panel .item .pre-topic {
+  margin-right: 80px;
+}
+
 .services-panel .item .topic-text {
     font-weight: bold;
     text-transform: uppercase;
@@ -283,13 +287,26 @@ a.link-decorator {
 
 /*Experemental Accordion */
 
+.services-panel .item label {
+  margin: auto 80px;
+  font-weight: bold;
+}
+
+.services-panel label:hover {
+background-color: pink;
+}
+
+.services-panel .item #opener {
+  display: none;
+}
+
 .services-panel .item .item-content {
   height: 20px;
   visibility: hidden;
   transition: height 1s;
 }
 
-.services-panel .item .opener:checked + .item-content {
+.services-panel .item #opener:checked + .item-content {
   height: 400px;
   visibility: visible;
 }
