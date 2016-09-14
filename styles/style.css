@@ -68,7 +68,7 @@ a {
 .menu {
     margin-top: 20px;
     font-size: 25px;
-    padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .menu a {
@@ -291,10 +291,6 @@ a.link-decorator {
   margin: 30px auto;
 }
 
-.services-panel .item .opener {
-  display: none;
-}
-
 .services-panel .item .item-content {
   height: 20px;
   visibility: hidden;
@@ -379,11 +375,14 @@ footer {
 }
 
 .ac-container label{
+  position: relative;
 	display: block;
 	cursor: pointer;
 	line-height: 33px;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: left;
+  left: 23px;
 }
 
 .ac-container input:checked + label,
