@@ -136,14 +136,15 @@ a.link-decorator {
     background-color: #ed3237;
     text-decoration: none;
     color: white;
-    padding: 5px;
+    padding: 10px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
 
 .read-more-panel {
     display: flex;
-    margin-bottom: 50px;
+    margin: 50px 0;
+    padding-bottom: 50px; /* TODO: must use padding, 'coz with margin: 50px 50px; don't work */
 }
 
 
@@ -319,6 +320,8 @@ background-color: pink;
 .products span {
     text-transform: uppercase;
     color: #ed3237;
+    display: block;
+    margin-bottom: 50px;
 }
 
 
@@ -335,10 +338,6 @@ background-color: pink;
 
 #e {
     margin-top: 5px;
-}
-
-.products-box {
-    margin-bottom: 50px;
 }
 
 .products .products-panel {
@@ -372,7 +371,7 @@ footer {
     background-color: #ed3237;
     text-decoration: none;
     color: white;
-    padding: 5px;
+    padding: 10px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
