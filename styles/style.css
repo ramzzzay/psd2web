@@ -287,12 +287,7 @@ a.link-decorator {
 /*Experemental Accordion */
 
 .services-panel .item label {
-  margin: auto 70px;
-  font-weight: bold;
-}
-
-.services-panel label:hover {
-background-color: pink;
+  margin: auto;
 }
 
 .services-panel .item .opener {
@@ -375,6 +370,62 @@ footer {
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
+
+.ac-container label{
+	display: block;
+	cursor: pointer;
+	line-height: 33px;
+  font-weight: bold;
+}
+
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover{
+	background: whitesmoke;
+	color: gray;
+}
+
+.ac-container label:hover:after,
+.ac-container input:checked + label:hover:after{
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	right: 13px;
+	top: 7px;
+}
+
+.ac-container input{
+	display: none;
+}
+
+.ac-container article{
+	margin-top: -1px;
+	overflow: hidden;
+	height: 0px;
+	position: relative;
+	z-index: 10;
+	transition:
+		height 0.3s ease-in-out;
+}
+.ac-container input:checked ~ article{
+	transition:
+		height 0.5s ease-in-out;
+}
+
+.ac-container article p{
+	font-style: italic;
+	color: #777;
+	line-height: 23px;
+	font-size: 14px;
+	padding: 20px;
+}
+
+.ac-container input:checked ~ article.ac-large{
+	height: 400px;
+}
+
+
+
 
 @media (max-width: 1080px) {
     .top-read-more:nth-child(odd) {
