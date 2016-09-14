@@ -265,7 +265,6 @@ a.link-decorator {
     font-weight: bold;
     text-transform: uppercase;
     padding-left: 10%;
-    height: 23px;
     padding-top: 20px;
     transition: height 0.7s;
 }
@@ -284,20 +283,13 @@ a.link-decorator {
 
 /*Experemental Accordion */
 
-.hl {
-  position: relative;
-  top: 24px;
-  font-weight: bold;
-  padding-bottom: 500px;
-}
-
 .services-panel .item .item-content {
-  height: 50px;
+  height: 20px;
   visibility: hidden;
   transition: height 1s;
 }
 
-.services-panel .item .hl:checked + .item-content {
+.services-panel .item .opener:checked + .item-content {
   height: 400px;
   visibility: visible;
 }
