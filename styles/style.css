@@ -288,7 +288,7 @@ a.link-decorator {
 /*Experemental Accordion */
 
 .services-panel .item label {
-  margin: auto 80px;
+  margin: auto 70px;
   font-weight: bold;
 }
 
@@ -296,17 +296,17 @@ a.link-decorator {
 background-color: pink;
 }
 
-.services-panel .item #opener {
+.services-panel .item .opener {
   display: none;
 }
 
 .services-panel .item .item-content {
   height: 20px;
   visibility: hidden;
-  transition: height 1s;
+  transition: height 0.7s;
 }
 
-.services-panel .item #opener:checked + .item-content {
+.services-panel .item .opener:checked + .item-content {
   height: 400px;
   visibility: visible;
 }
