@@ -383,6 +383,7 @@ footer {
 	cursor: pointer;
 	line-height: 33px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .ac-container input:checked + label,
