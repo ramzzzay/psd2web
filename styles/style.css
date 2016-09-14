@@ -27,6 +27,7 @@ a {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
+    padding: 2% 2% 5% 2%;
 }
 
 .full-round-border {
@@ -66,9 +67,8 @@ a {
 }
 
 .menu {
-    margin-top: 20px;
     font-size: 25px;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 
 .menu a {
@@ -92,16 +92,12 @@ a.first:hover {
     color: pink;
 }
 
-.home {
-  margin: 50px;
-}
-
 .banner {
     background-image: url("../images/banner-red-2.jpg");
     background-position: 79% 17%;
     background-color: #ed3237;
     height: 500px;
-    margin: 30px;
+    margin: 30px 0;
 }
 
 .top-read-more-panel {
@@ -139,6 +135,10 @@ a.first:hover {
     margin-bottom: -5px;
 }
 
+.about,.services {
+  margin-bottom: 50px;
+}
+
 a.link-decorator {
     background-color: #ed3237;
     text-decoration: none;
@@ -150,8 +150,7 @@ a.link-decorator {
 
 .read-more-panel {
     display: flex;
-    margin: 50px 0;
-    padding-bottom: 50px; /* TODO: must use padding, 'coz with margin: 50px 50px; don't work */
+    margin-top: 50px;
 }
 
 
@@ -205,7 +204,6 @@ a.link-decorator {
 .about-panel {
     display: flex;
     flex-direction: row;
-    margin: 0 3% 50px 3%;
 }
 
 .about-panel .about-panel-column {
@@ -238,7 +236,6 @@ a.link-decorator {
 
 .content .end-of-topic {
     color: #919191;
-    padding: 0 3% 3% 3%;
 }
 
 .services-panel {
@@ -246,12 +243,12 @@ a.link-decorator {
     align-items: flex-start;
     text-align: center;
     padding: 0 20%;
-    margin: 30px 0;
+    margin-top: 30px;
 }
 
 .services-panel .item {
     background-color: #e2e2e2;
-    margin: 0 50px 0 0;
+    margin: 0 25px;
 }
 
 .services-panel .item img {
@@ -317,26 +314,13 @@ a.link-decorator {
 }
 
 .ac-more-info {
-  position: absolute;
-  bottom: 30px;
-  left: 23px;
+  position: relative;
+  bottom: -137px;
+  left: -46px;
 }
 
 
 /*Solving Mastering margin collapsing*/
-
-.product-top-line {
-    margin-bottom: 20px;
-}
-
-.product-middle-line {
-    margin-top: 8px;
-    margin-bottom: 20px;
-}
-
-.product-bottom-line {
-    margin-top: 5px;
-}
 
 .products .products-panel {
     display: flex;
@@ -344,6 +328,7 @@ a.link-decorator {
     align-items: center;
     justify-content: center;
     text-align: left;
+    margin: 15px 0;
 }
 
 .products-panel .item {
@@ -405,9 +390,8 @@ footer {
 }
 
 .ac-container article{
-	margin-top: -1px;
 	overflow: hidden;
-	height: 0px;
+	height: 0;
 	position: relative;
 	z-index: 10;
 	transition:
@@ -435,10 +419,6 @@ footer {
     .top-read-more:nth-child(odd) {
         width: 34%;
     }
-    .read-more-about-btn {
-        margin-right: 2%;
-        top: 22px;
-    }
     .top-read-more-about-btn {
         top: 0;
     }
@@ -453,9 +433,6 @@ footer {
     }
     .link-decorator {
         margin-right: 0;
-    }
-    .about-panel .about-panel-column {
-        padding: 15px 0;
     }
     .services-panel .item {
         margin: auto;
