@@ -437,9 +437,7 @@ footer {
         top: 22px;
     }
     .top-read-more-about-btn {
-        margin-right: 0;
         top: 0;
-        left: 3.3%;
     }
     .about-header {
         width: 178px;
@@ -449,9 +447,6 @@ footer {
     }
     .lines:last-child {
         width: 35%;
-    }
-    .top-read-more.left-line {
-        margin-right: 2%;
     }
     .link-decorator {
         margin-right: 0;
