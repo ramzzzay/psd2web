@@ -72,11 +72,9 @@ a {
 }
 
 .menu a {
+    padding: 10px 0;
     color: #d3d3d3;
-    position: relative;
-    margin-top: 20px;
     margin-left: 50px;
-    margin-bottom: 5px;
     border-top: 1px solid #d3d3d3;
     border-bottom: 1px solid #d3d3d3;
     text-decoration: none;
@@ -113,7 +111,7 @@ a.first:hover {
 
 .topic {
   display: block;
-  font-size: 3em;
+  font-size: 2.5em;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -254,7 +252,6 @@ a.link-decorator {
 .services-panel .item {
     background-color: #e2e2e2;
     margin: 0 50px 0 0;
-    /*margin: auto;*/
 }
 
 .services-panel .item img {
@@ -320,7 +317,7 @@ a.link-decorator {
     text-transform: uppercase;
     color: #ed3237;
     display: block;
-    margin-bottom: 50px;
+    margin: 30px;
 }
 
 .ac-more-info {
@@ -332,23 +329,22 @@ a.link-decorator {
 
 /*Solving Mastering margin collapsing*/
 
-#q {
+.product-top-line {
     margin-bottom: 20px;
 }
 
-#w {
+.product-middle-line {
     margin-top: 8px;
     margin-bottom: 20px;
 }
 
-#e {
+.product-bottom-line {
     margin-top: 5px;
 }
 
 .products .products-panel {
     display: flex;
     height: 30px;
-    padding: 0 20%;
     align-items: center;
     justify-content: center;
     text-align: left;
@@ -358,11 +354,12 @@ a.link-decorator {
     line-height: 30px;
     text-transform: uppercase;
     text-align: center;
-    margin: 0 5px;
     background-color: #e2e2e2;
     -webkit-border-radius: 3px;
     border-radius: 3px;
     border: 0.1px solid #e2e2e2;
+    /* TODO: there padding and margin must be! */
+    margin: 0 5px;
     padding: 0 10px;
 }
 
