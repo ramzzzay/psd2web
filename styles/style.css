@@ -323,7 +323,6 @@ footer {
   position: relative;
 	display: block;
 	cursor: pointer;
-	line-height: 33px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: left;
@@ -415,6 +414,9 @@ footer {
   }
   .services-panel {
     padding: 0;
+  }
+  .ac-container label {
+    font-size: 0.8em;
   }
 }
 
