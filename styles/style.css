@@ -135,7 +135,7 @@ a.first:hover {
     margin-bottom: -5px;
 }
 
-.about,.services {
+.about, .services, .home {
   margin-bottom: 50px;
 }
 
@@ -148,52 +148,28 @@ a.link-decorator {
     border-radius: 5px;
 }
 
-.read-more-panel {
-    display: flex;
-    margin-top: 50px;
-}
-
-
-/* fix for IE 11
-.read-more-panel .read-more-row.link {
-  position: relative;
-  top: 10px
-}*/
-
-.read-more-panel .read-more-row {
-    margin: auto;
-}
-
-.read-more-panel .read-more-row:nth-child(odd) {
-    width: 44%;
-}
-
-.read-more-about-btn {
-    position: relative;
-    top: 40px;
-    left: 25px;
-    width: auto;
-    margin: 0 3%;
-}
-
 
 /*Read more panel with background on dots*/
 
-.top-read-more:nth-child(odd) {
+.read-more-panel {
+  margin-top: 50px
+}
+
+.read-more:nth-child(odd) {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAKCAYAAAB10jRKAAAAFUlEQVQImWNgYGBgYJg3b95/BiIBAHinAto4mgYoAAAAAElFTkSuQmCC) repeat;
     height: 30px;
 }
 
-.top-read-more-about-btn {
+.read-more-about-btn {
     display: inline;
 }
 
-.top-lines:first-child {
+.lines:first-child {
   width: 45%;
   float: left;
 }
 
-.top-lines:last-child {
+.lines:last-child {
   width: 45%;
   float: right;
 }
@@ -353,7 +329,6 @@ footer {
     background-color: #ed3237;
     text-decoration: none;
     color: white;
-    /*padding: 10px;*/
     padding: 0.3%;
     -webkit-border-radius: 5px;
     border-radius: 5px;
