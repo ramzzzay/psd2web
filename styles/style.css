@@ -165,7 +165,7 @@ a.link-decorator {
 }
 
 .read-more-panel .read-more-row:nth-child(odd) {
-    width: 40%;
+    width: 44%;
 }
 
 .read-more-about-btn {
@@ -378,7 +378,7 @@ footer {
 .ac-container label:hover:after,
 .ac-container input:checked + label:hover:after{
   font-family: FontAwesome;
-	content: "\f063";
+	content: "\f078";
 	position: absolute;
 	width: 24px;
 	height: 24px;
@@ -387,7 +387,7 @@ footer {
 }
 
 .ac-container input:checked + label:hover:after{
-	content: "\f062";
+	content: "\f077";
 }
 
 .ac-container input{
