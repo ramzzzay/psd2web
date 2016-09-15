@@ -328,6 +328,9 @@ footer {
   text-transform: uppercase;
   text-align: left;
   padding: 0 23px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 325px;
 }
 
 .ac-container input:checked + label,
