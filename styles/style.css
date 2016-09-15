@@ -232,7 +232,7 @@ a.link-decorator {
 .services-panel .item .text {
   text-align: left;
   position: relative;
-padding: 0 23px;
+  padding: 0 23px;
 }
 
 .read-more-btn {
@@ -394,7 +394,7 @@ footer {
       padding-right: 10px;
     }
     .lines:last-child {
-      width: 35%;
+      width: 45%;
     }
     .link-decorator {
       margin-right: 0;
