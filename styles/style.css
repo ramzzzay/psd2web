@@ -377,12 +377,17 @@ footer {
 
 .ac-container label:hover:after,
 .ac-container input:checked + label:hover:after{
-	content: '';
+  font-family: FontAwesome;
+	content: "\f063";
 	position: absolute;
 	width: 24px;
 	height: 24px;
-	right: 13px;
+	right: 10px;
 	top: 7px;
+}
+
+.ac-container input:checked + label:hover:after{
+	content: "\f062";
 }
 
 .ac-container input{
