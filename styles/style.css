@@ -242,7 +242,7 @@ a.link-decorator {
     display: flex;
     align-items: flex-start;
     text-align: center;
-    padding: 0 20%;
+    padding: 0 10%;
     margin-top: 30px;
 }
 
@@ -314,8 +314,8 @@ a.link-decorator {
 
 .ac-more-info {
   position: relative;
-  bottom: -137px;
-  left: -46px;
+  bottom: -77px;
+  left: -100px;
 }
 
 
