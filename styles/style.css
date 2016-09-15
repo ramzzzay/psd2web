@@ -271,8 +271,7 @@ a.link-decorator {
 .services-panel .item .text {
   text-align: left;
   position: absolute;
-  left: 23px;
-  right: 23px;
+  padding: 0 23px;
 }
 
 .read-more-btn {
@@ -368,7 +367,7 @@ footer {
   font-weight: bold;
   text-transform: uppercase;
   text-align: left;
-  left: 23px;
+  padding: 0 23px;
 }
 
 .ac-container input:checked + label,
