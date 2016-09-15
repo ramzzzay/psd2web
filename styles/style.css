@@ -415,7 +415,7 @@ footer {
   .services-panel {
     padding: 0;
   }
-  .ac-container label {
+  .services-panel .item {
     font-size: 0.8em;
   }
 }
