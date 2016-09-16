@@ -69,11 +69,6 @@
 	background: #ddd;
 }
 
-.wrapper .controls {
-	margin-left: -98px;
-	position: relative;
-}
-
 .wrapper label {
 	cursor: pointer;
 	display: inline-block;
@@ -266,7 +261,8 @@ a.link-decorator {
 }
 
 .read-more-panel {
-	margin-top: 50px
+	margin: 50px 0px;
+	height: 30px;
 }
 
 .read-more:nth-child(odd) {
@@ -275,7 +271,6 @@ a.link-decorator {
 }
 
 .read-more-about-btn {
-	display: block;
 	float: left;
 	margin: auto 2%;
 }
