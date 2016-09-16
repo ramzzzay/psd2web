@@ -35,7 +35,7 @@
 
 .slider {
 	overflow: hidden;
-	height: 500px;
+	height: 380px;
 	margin-bottom: 50px;
 }
 
@@ -114,7 +114,9 @@ a {
 
 .menu {
 	font-size: 25px;
-	margin: 50px 0;
+	margin: 50px auto;
+	display: flex;
+	justify-content: center;
 }
 
 .menu a {
@@ -202,13 +204,15 @@ a.link-decorator {
 	display: inline;
 }
 
-.lines:first-child {
+.lines {
 	width: 45%;
+}
+
+.lines:first-child {
 	float: left;
 }
 
 .lines:last-child {
-	width: 45%;
 	float: right;
 }
 
@@ -442,15 +446,8 @@ footer {
 	.about-header {
 		width: 178px;
 	}
-	.top-lines:last-child {
-		padding-right: 10px;
-	}
-	.lines:last-child {
-		width: 45%;
-	}
-	a.link-decorator {
-		font-size: 65%;
-		padding: 3px;
+	.lines {
+		width: 40%;
 	}
 	.services-panel .item {
 		margin: auto;
@@ -460,9 +457,6 @@ footer {
 	}
 	.menu a {
 		margin-left: 25px;
-		float: left;
-		left: 50px;
-		bottom: 25px;
 	}
 	.services-panel {
 		padding: 0;
@@ -472,7 +466,7 @@ footer {
 	}
 	
 	.slider {
-		margin-top: 125px;
+		margin-top: 50px;
 		height: 390px;
 	}
 }
