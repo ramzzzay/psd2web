@@ -201,7 +201,9 @@ a.link-decorator {
 }
 
 .read-more-about-btn {
-	display: inline;
+	display: block;
+	float: left;
+	margin: auto 2%;
 }
 
 .lines {
@@ -437,12 +439,6 @@ footer {
 }
 
 @media (max-width: 1080px) {
-	.top-read-more:nth-child(odd) {
-		width: 34%;
-	}
-	.top-read-more-about-btn {
-		top: 0;
-	}
 	.about-header {
 		width: 178px;
 	}
