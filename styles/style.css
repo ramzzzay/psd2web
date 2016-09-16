@@ -469,13 +469,3 @@ footer {
 		font-size: 0.8em;
 	}
 }
-
-.owl-carousel {
-	margin-bottom: 50px;
-}
-
-.owl-carousel .item img {
-	display: block;
-	width: 99%;
-	height: 500px;
-}
