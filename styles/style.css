@@ -3,6 +3,11 @@
 	src: url('../fonts/source-sans-pro/SourceSansPro-Regular.otf');
 }
 
+div.item {
+    display: inline-block;
+    vertical-align: top;
+}
+
 .wrapper {
 	height: 500px;
 	position: relative;
