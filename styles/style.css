@@ -36,6 +36,7 @@
 .slider {
 	overflow: hidden;
 	height: 500px;
+	margin-bottom: 50px;
 }
 
 .slider figure img {
