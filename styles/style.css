@@ -186,6 +186,7 @@ a.link-decorator {
 	padding: 10px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+	font-size: 90%;
 }
 
 .read-more-panel {
@@ -447,8 +448,9 @@ footer {
 	.lines:last-child {
 		width: 45%;
 	}
-	.link-decorator {
-		margin-right: 0;
+	a.link-decorator {
+		font-size: 65%;
+		padding: 3px;
 	}
 	.services-panel .item {
 		margin: auto;
@@ -467,5 +469,10 @@ footer {
 	}
 	.services-panel .item {
 		font-size: 0.8em;
+	}
+	
+	.slider {
+		margin-top: 125px;
+		height: 390px;
 	}
 }
