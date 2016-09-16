@@ -124,7 +124,9 @@ a.first:hover {
     margin-bottom: -5px;
 }
 
-.about, .services, .home {
+.about,
+.services,
+.home {
     margin-bottom: 50px;
 }
 
@@ -332,12 +334,14 @@ footer {
     text-overflow: ellipsis;
 }
 
-.ac-container input:checked+label, .ac-container input:checked+label:hover {
+.ac-container input:checked+label,
+.ac-container input:checked+label:hover {
     color: gray;
 }
 
-.ac-container label:hover:after, .ac-container input:checked+label:hover:after {
-    font-family: FontAwesome, serif;
+.ac-container label:hover:after,
+.ac-container input:checked+label:hover:after {
+    font-family: FontAwesome, sans-serif;
     content: "\f078";
     position: absolute;
     width: 24px;
