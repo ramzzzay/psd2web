@@ -1,12 +1,11 @@
 @font-face {
     font-family: 'SourceSansPro';
-    src: url('SourceSansPro.otf');
+    src: url('../fonts/source-sans-pro/SourceSansPro-Regular.otf');
 }
 
 body {
-    font-family: 'MyWebFont', Fallback, sans-serif;
-    background-image: url("../images/background.png");
-    background-color: #343434;
+    font-family: 'SourceSansPro', Fallback, sans-serif;
+    background: #343434 url("../images/background.png");
     text-align: center;
     color: #373435;
     padding: 120px 120px 50px 120px;
@@ -338,7 +337,7 @@ footer {
 }
 
 .ac-container label:hover:after, .ac-container input:checked+label:hover:after {
-    font-family: FontAwesome;
+    font-family: FontAwesome, serif;
     content: "\f078";
     position: absolute;
     width: 24px;
