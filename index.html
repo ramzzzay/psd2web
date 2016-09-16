@@ -2,34 +2,45 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Web Page</title>
-    <link rel="stylesheet" href="styles/style.css" media="screen" title="no title">
-    <link rel="stylesheet" href="styles/font-awesome.min.css" media="screen" title="no title">
+	<meta charset="utf-8">
+	<title>Web Page</title>
+	<link rel="stylesheet" href="styles/style.css" media="screen" title="no title">
+	<link rel="stylesheet" href="styles/font-awesome.min.css" media="screen" title="no title">
 </head>
 
 <body>
-    <div class="content">
-        <span class="title full-round-border">SITENAME</span>
-        <nav class="menu">
-            <a href="#home" class="first">HOME</a>
-            <a href="#home">ABOUT</a>
-            <a href="#services">SERVICES</a>
-            <a href="#products">PRODUCTS</a>
-            <a href="#contact">CONTACT</a>
-        </nav>
-        <div class="full-round-border slider">
-            <figure>
-                <img src="images/banner-red-5.jpg" alt>
-                <img src="images/banner-red-6.jpg" alt>
-                <img src="images/banner-red-7.jpg" alt>
-                <img src="images/banner-red-5.jpg" alt>
-            </figure>
-        </div>
-        <div class="home" id="home">
-            <span class="topic">Lorem Ipsum</span>
-            <div class="text">Donec nec justo eget felis facilisis fermentum.
-                <br/> Aliquam portti or mauris sit amet orci. Aenean dignissim pellentesque felis.</div>
+	<div class="content">
+		<span class="title full-round-border">SITENAME</span>
+		<nav class="menu">
+			<a href="#home" class="first">HOME</a>
+			<a href="#home">ABOUT</a>
+			<a href="#services">SERVICES</a>
+			<a href="#products">PRODUCTS</a>
+			<a href="#contact">CONTACT</a>
+		</nav>
+
+
+
+		<div class="wrapper full-round-border">
+			<input type="radio" name="point" id="slide1" checked>
+			<input type="radio" name="point" id="slide2">
+			<input type="radio" name="point" id="slide3">
+			<div class="slider">
+				<div class="slides slide1"></div>
+				<div class="slides slide2"></div>
+				<div class="slides slide3"></div>
+			</div>
+			<div class="controls">
+				<label for="slide1"></label>
+				<label for="slide2"></label>
+				<label for="slide3"></label>
+			</div>
+		</div>
+		<div class="home" id="home">
+			<span class="topic">Lorem Ipsum</span>
+			<div class="text">Donec nec justo eget felis facilisis fermentum.
+				<br/> Aliquam portti or mauris sit amet orci. Aenean dignissim pellentesque felis.
+			</div>
             <div class="read-more-panel">
                 <div class="read-more lines"></div>
                 <div class="read-more read-more-about-btn">
@@ -37,173 +48,173 @@
                 </div>
                 <div class="read-more lines"></div>
             </div>
-        </div>
-        <div class="about" id="about">
-            <span class="topic">Vivamus vest</span>
-            <div class="about-topic-text">
-                Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-                <br/> Duis leo. Sed fringilla mauris sit amet nibh.
-            </div>
-            <div class="about-panel">
-                <div class="about-panel-item">
-                    <span class="fa fa-pencil half-round-border icon" aria-hidden="true"></span>
-                    <div class="about-panel-column">
-                        <h3 class="about-header">
-                            Fusce pellentesque, suscipit nibh
-                        </h3>
-                        <div class="about-text">
-                            Quisque rutrum. Aenean imperdiet. , Etiam ultricies nisi vel augue. , Curabitur ullamcorper ultricies nisi. , Nam eget dui. Etiam rhoncus.
-                        </div>
-                        <div class="about-button">
-                            <a href="#" class="more-info-btn">More info <span>&gt;</span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-panel-item">
-                    <span class="fa fa-users half-round-border icon" aria-hidden="true"></span>
-                    <div class="about-panel-column">
-                        <h3 class="about-header">
-                            Fusce pellentesque, suscipit nibh
-                        </h3>
-                        <div class="about-text">
-                            Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-                        </div>
-                        <div class="about-button">
-                            <a href="#" class="more-info-btn">
+		</div>
+		<div class="about" id="about">
+			<span class="topic">Vivamus vest</span>
+			<div class="about-topic-text">
+				Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+				<br/> Duis leo. Sed fringilla mauris sit amet nibh.
+			</div>
+			<div class="about-panel">
+				<div class="about-panel-item">
+					<span class="fa fa-pencil half-round-border icon" aria-hidden="true"></span>
+					<div class="about-panel-column">
+						<h3 class="about-header">
+							Fusce pellentesque, suscipit nibh
+						</h3>
+						<div class="about-text">
+							Quisque rutrum. Aenean imperdiet. , Etiam ultricies nisi vel augue. , Curabitur ullamcorper ultricies nisi. , Nam eget dui. Etiam rhoncus.
+						</div>
+						<div class="about-button">
+							<a href="#" class="more-info-btn">More info <span>&gt;</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="about-panel-item">
+					<span class="fa fa-users half-round-border icon" aria-hidden="true"></span>
+					<div class="about-panel-column">
+						<h3 class="about-header">
+							Fusce pellentesque, suscipit nibh
+						</h3>
+						<div class="about-text">
+							Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+						</div>
+						<div class="about-button">
+							<a href="#" class="more-info-btn">
                             	More info <span>&gt;</span>
                             </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-panel-item">
-                    <span class="fa fa-wrench half-round-border icon" aria-hidden="true"></span>
-                    <div class="about-panel-column">
-                        <h3 class="about-header">
-                            Fusce pellentesque, suscipit nibh
-                        </h3>
-                        <div class="about-text">
-                            Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-                        </div>
-                        <div class="about-button">
-                            <a href="#" class="more-info-btn">
+						</div>
+					</div>
+				</div>
+				<div class="about-panel-item">
+					<span class="fa fa-wrench half-round-border icon" aria-hidden="true"></span>
+					<div class="about-panel-column">
+						<h3 class="about-header">
+							Fusce pellentesque, suscipit nibh
+						</h3>
+						<div class="about-text">
+							Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+						</div>
+						<div class="about-button">
+							<a href="#" class="more-info-btn">
                             	More info <span>&gt;</span>
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="end-of-topic">
-            <hr/>
-        </div>
-        <div class="services" id="services">
-            <h1>Cras iaculis</h1>
-            <div class="text">
-                Fusce lobortis lorem at ipsum semper sagittis
-            </div>
-            <div class="services-panel">
-                <div class="item half-round-border ac-container">
-                    <div>
-                        <input id="ac-1" name="accordion-1" type="checkbox" />
-                        <label for="ac-1">Vestibulum commodo felis quis tortor</label>
-                        <article class="ac-large">
-                            <img src="images/banner-red-1.jpg" alt="" />
-                            <div class="text">
-                                Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.
-                            </div>
-                            <span class="ac-more-info">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="end-of-topic">
+			<hr/>
+		</div>
+		<div class="services" id="services">
+			<h1>Cras iaculis</h1>
+			<div class="text">
+				Fusce lobortis lorem at ipsum semper sagittis
+			</div>
+			<div class="services-panel">
+				<div class="item half-round-border ac-container">
+					<div>
+						<input id="ac-1" name="accordion-1" type="checkbox" />
+						<label for="ac-1">Vestibulum commodo felis quis tortor</label>
+						<article class="ac-large">
+							<img src="images/banner-red-1.jpg" alt="" />
+							<div class="text">
+								Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.
+							</div>
+							<span class="ac-more-info">
                                 <a href="#" class="more-info-btn">More info<span>&gt;</span></a>
-                            </span>
-                        </article>
-                    </div>
-                </div>
-                <div class="item half-round-border ac-container">
-                    <div>
-                        <input id="ac-2" name="accordion-1" type="checkbox" />
-                        <label for="ac-2">Donec quis dui at dolor tempor interdum</label>
-                        <article class="ac-large">
-                            <img src="images/banner-red-3.jpg" alt="" />
-                            <div class="text">
-                                Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus
-                            </div>
-                            <span class="ac-more-info">
+							</span>
+						</article>
+					</div>
+				</div>
+				<div class="item half-round-border ac-container">
+					<div>
+						<input id="ac-2" name="accordion-1" type="checkbox" />
+						<label for="ac-2">Donec quis dui at dolor tempor interdum</label>
+						<article class="ac-large">
+							<img src="images/banner-red-3.jpg" alt="" />
+							<div class="text">
+								Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus
+							</div>
+							<span class="ac-more-info">
                                 <a href="#" class="more-info-btn">More info<span>&gt;</span></a>
-                            </span>
-                        </article>
-                    </div>
-                </div>
-                <div class="item half-round-border ac-container">
-                    <div>
-                        <input id="ac-3" name="accordion-1" type="checkbox" />
-                        <label for="ac-3">Fusce lobortis lorem at ipsum semper</label>
-                        <article class="ac-large">
-                            <img src="images/banner-red-4.jpg" alt="" />
-                            <div class="text">
-                                Faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique
-                            </div>
-                            <span class="ac-more-info">
+							</span>
+						</article>
+					</div>
+				</div>
+				<div class="item half-round-border ac-container">
+					<div>
+						<input id="ac-3" name="accordion-1" type="checkbox" />
+						<label for="ac-3">Fusce lobortis lorem at ipsum semper</label>
+						<article class="ac-large">
+							<img src="images/banner-red-4.jpg" alt="" />
+							<div class="text">
+								Faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique
+							</div>
+							<span class="ac-more-info">
                                 <a href="#" class="more-info-btn">More info<span>&gt;</span></a>
-                            </span>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="end-of-topic">
-            <hr/>
-        </div>
-        <div class="products" id="products">
-            <h1>Cras iaculis</h1>
-            <div class="text">
-                Praesent sagittis laoreet ex, sed ultrices mi rhoncus id.
-                <br/> Suspendisse non ipsum ullamcorper, suscipit justo eget, hendrerit ipsum.
-                <br/> In a lorem interdum, vulputate nisl at, blandit orci. Etiam vel elementum mi.
-            </div>
-            <span>our products</span>
-            <div class="products-box">
-                <div class="products-panel">
-                    <div class="item shadow">
-                        suscipit justo eget
-                    </div>
-                    <div class="item shadow">
-                        hendrerit ipsum
-                    </div>
-                </div>
-                <div class="products-panel">
-                    <div class="item shadow">
-                        vulputate nisl at
-                    </div>
-                    <div class="item shadow">
-                        blandit
-                    </div>
-                    <div class="item shadow">
-                        elementum mi
-                    </div>
-                </div>
-                <div class="products-panel">
-                    <div class="item shadow">
-                        Fusce ornare
-                    </div>
-                    <div class="item shadow">
-                        arcu eget
-                    </div>
-                </div>
-            </div>
-            <div class="read-more-panel">
-                <div class="read-more lines"></div>
-                <div class="read-more read-more-about-btn">
-                    <a href="#" class="link-decorator shadow">VIEW MORE</a>
-                </div>
-                <div class="read-more lines"></div>
-            </div>
-        </div>
-    </div>
+							</span>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="end-of-topic">
+			<hr/>
+		</div>
+		<div class="products" id="products">
+			<h1>Cras iaculis</h1>
+			<div class="text">
+				Praesent sagittis laoreet ex, sed ultrices mi rhoncus id.
+				<br/> Suspendisse non ipsum ullamcorper, suscipit justo eget, hendrerit ipsum.
+				<br/> In a lorem interdum, vulputate nisl at, blandit orci. Etiam vel elementum mi.
+			</div>
+			<span>our products</span>
+			<div class="products-box">
+				<div class="products-panel">
+					<div class="item shadow">
+						suscipit justo eget
+					</div>
+					<div class="item shadow">
+						hendrerit ipsum
+					</div>
+				</div>
+				<div class="products-panel">
+					<div class="item shadow">
+						vulputate nisl at
+					</div>
+					<div class="item shadow">
+						blandit
+					</div>
+					<div class="item shadow">
+						elementum mi
+					</div>
+				</div>
+				<div class="products-panel">
+					<div class="item shadow">
+						Fusce ornare
+					</div>
+					<div class="item shadow">
+						arcu eget
+					</div>
+				</div>
+			</div>
+			<div class="read-more-panel">
+				<div class="read-more lines"></div>
+				<div class="read-more read-more-about-btn">
+					<a href="#" class="link-decorator shadow">VIEW MORE</a>
+				</div>
+				<div class="read-more lines"></div>
+			</div>
+		</div>
+	</div>
 </body>
 
 <!-- TODO:  Make sticky footer -->
 <footer id="contact">
-    Copyright(c) website name.
-    <br/> Designed by: www.alltemplateneeds.com / images from www.wallpaperswide.com
+	Copyright(c) website name.
+	<br/> Designed by: www.alltemplateneeds.com / images from www.wallpaperswide.com
 </footer>
 
 </html>
