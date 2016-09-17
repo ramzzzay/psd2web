@@ -517,9 +517,10 @@ footer {
 	.about-header {
 		width: 178px;
 	}
-	.lines {
-		width: 40%;
-	}
+    
+    .lines {
+        width: 40%;
+    }
 	.services-panel .item {
 		margin: auto;
 	}
