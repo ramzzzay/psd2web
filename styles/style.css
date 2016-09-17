@@ -452,7 +452,7 @@ footer {
 	border-radius: 5px;
 }
 
-.ac-container label {
+.item label {
 	position: relative;
 	display: block;
 	cursor: pointer;
@@ -464,13 +464,13 @@ footer {
 	text-overflow: ellipsis;
 }
 
-.ac-container input:checked+label,
-.ac-container input:checked+label:hover {
+.item input:checked+label,
+.item input:checked+label:hover {
 	color: gray;
 }
 
-.ac-container label:hover:after,
-.ac-container input:checked+label:hover:after {
+.item label:hover:after,
+.item input:checked+label:hover:after {
 	font-family: FontAwesome, sans-serif;
 	content: "\f078";
 	position: absolute;
@@ -480,15 +480,15 @@ footer {
 	top: 7px;
 }
 
-.ac-container input:checked+label:hover:after {
+.item input:checked+label:hover:after {
 	content: "\f077";
 }
 
-.ac-container input {
+.item input {
 	display: none;
 }
 
-.ac-container article {
+.item article {
 	overflow: hidden;
 	height: 0;
 	position: relative;
@@ -496,11 +496,11 @@ footer {
 	transition: height 0.3s ease-in-out;
 }
 
-.ac-container input:checked~article {
+.item input:checked~article {
 	transition: height 0.5s ease-in-out;
 }
 
-.ac-container article p {
+.item article p {
 	font-style: italic;
 	color: #777;
 	line-height: 23px;
@@ -508,7 +508,7 @@ footer {
 	padding: 20px;
 }
 
-.ac-container input:checked~.ac-large {
+.item input:checked~.ac-large {
 	height: 370px;
 }
 
