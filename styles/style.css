@@ -450,43 +450,45 @@ footer {
 	color: white;
 	padding: 0.3%;
 	-webkit-border-radius: 5px;
-	border-radius: 5px;
+border-radius: 5px;
 }
-
 .item label {
-	position: relative;
-	display: block;
-	cursor: pointer;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-align: left;
-	padding: 0 23px;
-	overflow: hidden;
-	text-overflow: ellipsis;
+    position: relative;
+    display: block;
+    display: -webkit-box;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0 23px;
+    
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
-
 .item input:checked+label,
 .item input:checked+label:hover {
-	color: gray;
+    color: gray;
 }
-
 .item label:hover:after,
 .item input:checked+label:hover:after {
-	font-family: FontAwesome, sans-serif;
-	content: "\f078";
-	position: absolute;
-	width: 24px;
-	height: 24px;
-	right: 10px;
-	top: 7px;
+    font-family: FontAwesome, sans-serif;
+    content: "\f078";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 10px;
+    top: 7px;
 }
-
 .item input:checked+label:hover:after {
-	content: "\f077";
+    content: "\f077";
 }
-
 .item input {
-	display: none;
+    display: none;
 }
 
 .item article {
