@@ -7,7 +7,6 @@
 	<link rel="stylesheet" href="styles/style.css" media="screen" title="no title">
 	<link rel="stylesheet" href="styles/font-awesome.min.css" media="screen" title="no title">
 </head>
-
 <body>
 	<div class="content">
 		<span class="title full-round-border">SITENAME</span>
@@ -18,19 +17,20 @@
 			<a href="#products">PRODUCTS</a>
 			<a href="#contact">CONTACT</a>
 		</nav>
+		
 		<div class="wrapper full-round-border">
-			<input type="radio" name="point" id="slide1" checked>
-			<input type="radio" name="point" id="slide2">
-			<input type="radio" name="point" id="slide3">
+			<input  type="radio" name="point" id="slide1" checked>
+			<input  type="radio" name="point" id="slide2">
+			<input  type="radio" name="point" id="slide3">
 			<div class="slider">
-				<div class="slides slide1"></div>
-				<div class="slides slide2"></div>
-				<div class="slides slide3"></div>
+				<div id="picture-1" class="slides"></div>
+				<div id="picture-2" class="slides"></div>
+				<div id="picture-3" class="slides"></div>
 			</div>
 			<div class="controls">
-				<label for="slide1"></label>
-				<label for="slide2"></label>
-				<label for="slide3"></label>
+				<label id="label-1" for="slide1"></label>
+				<label id="label-2" for="slide2"></label>
+				<label id="label-3" for="slide3"></label>
 			</div>
 		</div>
 		<div class="home" id="home">
@@ -114,7 +114,7 @@
 				<div class="item half-round-border">
 					<div>
 						<input id="ac-1" name="accordion-1" type="checkbox" />
-						<label for="ac-1">Vestibulum commodo felis quis tortor</label>
+						<label for="ac-1">Vestibulum Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. commodo felis quis tortor</label>
 						<article class="ac-large">
 							<img src="images/banner-red-1.jpg" alt="" />
 							<div class="text">
@@ -129,7 +129,7 @@
 				<div class="item half-round-border">
 					<div>
 						<input id="ac-2" name="accordion-1" type="checkbox" />
-						<label for="ac-2">Donec quis dui at dolor tempor interdum</label>
+						<label for="ac-2">Donec quis dui Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. at dolor tempor interdum</label>
 						<article class="ac-large">
 							<img src="images/banner-red-3.jpg" alt="" />
 							<div class="text">
@@ -144,7 +144,7 @@
 				<div class="item half-round-border">
 					<div>
 						<input id="ac-3" name="accordion-1" type="checkbox" />
-						<label for="ac-3">Fusce lobortis lorem at ipsum semper</label>
+						<label for="ac-3">Fusce lobortis lorem at ipsum Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. semper</label>
 						<article class="ac-large">
 							<img src="images/banner-red-4.jpg" alt="" />
 							<div class="text">
