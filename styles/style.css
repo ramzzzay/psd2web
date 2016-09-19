@@ -331,13 +331,14 @@ a.link-decorator {
 	display: flex;
 	align-items: flex-start;
 	text-align: left;
-	padding: 0 10%;
+	padding: 0 29vw;
 	margin-top: 30px;
+	flex-direction: column;
 }
 
 .services-panel .item {
 	background-color: #e2e2e2;
-	margin: 0 25px;
+	margin: 25px 0;
 }
 
 .services-panel .item img {
@@ -360,7 +361,20 @@ a.link-decorator {
 .services-panel .item .text {
 	text-align: left;
 	position: relative;
-	padding: 0 23px;
+	
+	display: block;
+	display: -webkit-box;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: left;
+	padding: 0 1vw;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	overflow: hidden;
+	max-height: 7.5em;
+	line-height: 1.5em;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
 }
 
 .read-more-btn {
@@ -370,26 +384,9 @@ a.link-decorator {
 	font-weight: bold;
 }
 
-
-/*Experemental Accordion */
-
 .services-panel .item label {
-	margin: 30px auto;
+	margin: 1vw auto;
 }
-
-.services-panel .item .item-content {
-	height: 20px;
-	visibility: hidden;
-	transition: height 0.7s;
-}
-
-.services-panel .item .opener:checked+.item-content {
-	height: 400px;
-	visibility: visible;
-}
-
-
-/*Experemental Accordion */
 
 .read-more-btn span {
 	color: red;
@@ -457,7 +454,7 @@ footer {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: left;
-	padding: 0 23px;
+	padding: 0 1vw;
 	text-overflow: ellipsis;
 	word-wrap: break-word;
 	overflow: hidden;
@@ -512,7 +509,7 @@ footer {
 }
 
 .item input:checked~.ac-large {
-	height: 370px;
+	height: 26vw;
 }
 
 @media (max-width: 1080px) {
@@ -523,7 +520,7 @@ footer {
 		width: 40%;
 	}
 	.services-panel .item {
-		margin: auto;
+		margin: 1vw;
 	}
 	.menu {
 		font-size: 20px;
@@ -531,11 +528,12 @@ footer {
 	.menu a {
 		margin-left: 25px;
 	}
+	
+	.item input:checked~.ac-large {
+	height: 45vw;
+}
 	.services-panel {
-		padding: 0;
-	}
-	.services-panel .item {
-		font-size: 0.8em;
+		padding: 10vw;
 	}
 	.slider {
 		margin-top: 50px;
