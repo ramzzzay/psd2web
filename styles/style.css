@@ -369,7 +369,7 @@ a.link-decorator {
 	font-weight: bold;
 	text-align: left;
 	padding-left: 15px;
-	padding-right: 20px;
+	padding-right: 30px;
 	text-overflow: ellipsis;
 	word-wrap: break-word;
 	overflow: hidden;
@@ -406,7 +406,7 @@ a.link-decorator {
 	position: relative;
 	bottom: -20px;
 	padding-left: 15px;
-	padding-right: 20px;
+	padding-right: 30px;
 }
 
 
@@ -456,7 +456,7 @@ footer {
 	text-transform: uppercase;
 	text-align: left;
 	padding-left: 15px;
-	padding-right: 20px;
+	padding-right: 30px;
 	text-overflow: ellipsis;
 	word-wrap: break-word;
 	overflow: hidden;
