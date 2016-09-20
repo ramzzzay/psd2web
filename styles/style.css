@@ -456,7 +456,7 @@ footer {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: left;
-	padding: 0 1vw;
+	padding: 0 3vw;
 	text-overflow: ellipsis;
 	word-wrap: break-word;
 	overflow: hidden;
@@ -466,13 +466,13 @@ footer {
 	-webkit-box-orient: vertical;
 }
 
-.item input:checked+label,
-.item input:checked+label:hover {
+.item input:checked+label span,
+.item input:checked+label span:hover {
 	color: gray;
 }
 
 .item label:hover:after,
-.item input:checked+label:hover:after {
+.item input:checked+label span:hover:after {
 	font-family: FontAwesome, sans-serif;
 	content: "\f078";
 	position: absolute;
