@@ -337,21 +337,21 @@ a.link-decorator {
 	flex-direction: row;
 }
 
-.services-panel .item {
+.services-panel .services-item {
 	background-color: #e2e2e2;
 	margin: 0 25px;
 }
 
-.services-panel .item img {
+.services-panel .services-item img {
 	width: 100%;
 	margin-bottom: 15px;
 }
 
-.services-panel .item .pre-topic {
+.services-panel .services-item .pre-topic {
 	margin-right: 80px;
 }
 
-.services-panel .item .topic-text {
+.services-panel .services-item .topic-text {
 	font-weight: bold;
 	text-transform: uppercase;
 	padding-left: 10%;
@@ -359,11 +359,10 @@ a.link-decorator {
 	transition: height 0.7s;
 }
 
-.services-panel .item .text {
+.services-panel .services-item .text {
 	text-align: left;
 	position: relative;
 	height: 100px;
-	
 	display: block;
 	display: -webkit-box;
 	cursor: pointer;
@@ -387,7 +386,7 @@ a.link-decorator {
 	font-weight: bold;
 }
 
-.services-panel .item label {
+.services-panel .services-item label {
 	margin: 1vw auto;
 }
 
@@ -410,8 +409,6 @@ a.link-decorator {
 	padding-right: 20px;
 }
 
-
-/*Solving Mastering margin collapsing*/
 
 .products .products-panel {
 	display: flex;
@@ -450,7 +447,7 @@ footer {
 	border-radius: 5px;
 }
 
-.item label {
+.services-item label {
 	position: relative;
 	display: block;
 	display: -webkit-box;
@@ -469,12 +466,12 @@ footer {
 	-webkit-box-orient: vertical;
 }
 
-.item input:checked+label span {
+.services-item input:checked+label span {
 	color: gray;
 }
 
-.item label:hover:after,
-.item input:checked+label span:hover:after {
+.services-item label:hover:after,
+.services-item input:checked+label span:hover:after {
 	font-family: FontAwesome, sans-serif;
 	content: "\f078";
 	position: absolute;
@@ -484,15 +481,15 @@ footer {
 	top: 7px;
 }
 
-.item input:checked+label:hover:after {
+.services-item input:checked+label:hover:after {
 	content: "\f077";
 }
 
-.item input {
+.services-item input {
 	display: none;
 }
 
-.item article {
+.services-item article {
 	overflow: hidden;
 	height: 0;
 	position: relative;
@@ -500,11 +497,11 @@ footer {
 	transition: height 0.3s ease-in-out;
 }
 
-.item input:checked~article {
+.services-item input:checked~article {
 	transition: height 0.5s ease-in-out;
 }
 
-.item article p {
+.services-item article p {
 	font-style: italic;
 	color: #777;
 	line-height: 23px;
@@ -512,7 +509,7 @@ footer {
 	padding: 20px;
 }
 
-.item input:checked~.ac-large {
+.services-item input:checked~.ac-large {
 	height: 400px;
 }
 
@@ -526,7 +523,7 @@ footer {
 	.lines {
 		width: 40%;
 	}
-	.services-panel .item {
+	.services-panel .services-item {
 		margin: 1vw;
 	}
 	.menu {
@@ -536,21 +533,21 @@ footer {
 		margin-left: 25px;
 	}
 	
-	.item input:checked~.ac-large {
+	.services-item input:checked~.ac-large {
 	height: 45vw;
 }
 	.services-panel {
 		padding: 1vw;
 		flex-direction: column;
 	}
-	.services-panel .item {
+	.services-panel .services-item {
 		margin: 25px 0;
 	}
-	.services-panel .item .text {
+	.services-panel .services-item .text {
 		height: 65px
 	}
 	
-	.item input:checked~.ac-large {
+	.services-item input:checked~.ac-large {
 		height: 588px;
 	}
 	.slider {
