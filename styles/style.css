@@ -404,9 +404,7 @@ a.link-decorator {
 
 .ac-more-info {
 	position: relative;
-	bottom: -20px;
-	padding-left: 15px;
-	padding-right: 30px;
+	padding: 25px 30px 25px 15px;
 }
 
 
@@ -491,14 +489,15 @@ footer {
 
 .services-item article {
 	overflow: hidden;
-	height: 0;
+	max-height: 0;
 	position: relative;
 	z-index: 10;
 	transition: height 0.3s ease-in-out;
 }
 
 .services-item input:checked~article {
-	transition: height 0.5s ease-in-out;
+	max-height: 800px;
+	transition: max-height 0.5s ease-in-out;
 }
 
 .services-item article p {
@@ -507,10 +506,6 @@ footer {
 	line-height: 23px;
 	font-size: 14px;
 	padding: 20px;
-}
-
-.services-item input:checked~.ac-large {
-	height: 400px;
 }
 
 @media (max-width: 1080px) {
