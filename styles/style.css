@@ -534,9 +534,18 @@ footer {
 }
 	.services-panel {
 		padding: 10vw;
+		flex-direction: column;
 	}
 	.slider {
 		margin-top: 50px;
 		height: 390px;
+	}
+	
+	.about-panel {
+		flex-direction: column;
+	}
+	
+	.about-panel .about-panel-column{
+		margin-bottom:25px;	
 	}
 }
