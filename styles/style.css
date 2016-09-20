@@ -3,7 +3,7 @@
 	src: url('../fonts/source-sans-pro/SourceSansPro-Regular.otf');
 }
 
-div.item {
+.read-more-panel > div {
 	display: inline-block;
 	vertical-align: top;
 }
@@ -222,13 +222,19 @@ a.first:hover {
 	transform: scale(1);
 }
 
-.text {
+.products > h1 + div,
+.services > h1 + div,
+.ac-large > img + div,
+.home > span + div,
+.about > span + div{
 	color: #919191;
 }
 
-.about-topic-text {
-	color: #919191;
-	margin-bottom: 50px;
+
+
+.ac-large>img+div {
+	padding-left: 15px;
+	padding-right: 30px;
 }
 
 .about-text {
@@ -288,6 +294,7 @@ a.link-decorator {
 .about-panel {
 	display: flex;
 	flex-direction: row;
+	margin-top: 50px;
 }
 
 .about-panel .about-panel-column {
@@ -332,37 +339,17 @@ a.link-decorator {
 	flex-direction: row;
 }
 
-.services-panel .services-item {
+.services-panel > div {
 	background-color: #e2e2e2;
 	margin: 0 25px;
 }
 
-.services-panel .services-item img {
+.services-panel > div img {
 	width: 100%;
 	margin-bottom: 15px;
 }
 
-.services-panel .services-item .text {
-	text-align: left;
-	position: relative;
-	height: 100px;
-	display: block;
-	display: -webkit-box;
-	cursor: pointer;
-	font-weight: bold;
-	text-align: left;
-	padding-left: 15px;
-	padding-right: 30px;
-	text-overflow: ellipsis;
-	word-wrap: break-word;
-	overflow: hidden;
-	max-height: 7.5em;
-	line-height: 1.5em;
-	-webkit-line-clamp: 4;
-	-webkit-box-orient: vertical;
-}
-
-.services-panel .services-item label {
+.services-panel > div label {
 	margin: 1vw auto;
 	position: relative;
 	display: block;
@@ -382,6 +369,42 @@ a.link-decorator {
 	-webkit-box-orient: vertical;
 }
 
+.services-panel > div input:checked+label span {
+	color: gray;
+}
+
+.services-panel > div label:hover:after,
+.services-panel > div input:checked+label span:hover:after {
+	font-family: FontAwesome, sans-serif;
+	content: "\f078";
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	right: 10px;
+	top: 7px;
+}
+
+.services-panel > div input:checked+label:hover:after {
+	content: "\f077";
+}
+
+.services-panel > div input {
+	display: none;
+}
+
+.services-panel > div article {
+	overflow: hidden;
+	max-height: 0;
+	position: relative;
+	z-index: 10;
+	transition: height 0.3s ease-in-out;
+}
+
+.services-panel > div input:checked~article {
+	max-height: 800px;
+	transition: max-height 0.5s ease-in-out;
+}
+
 .products span {
 	text-transform: uppercase;
 	color: #ed3237;
@@ -395,7 +418,7 @@ a.link-decorator {
 }
 
 
-.products .products-panel {
+.products-box> div:nth-child(n){
 	display: flex;
 	height: 30px;
 	align-items: center;
@@ -404,7 +427,7 @@ a.link-decorator {
 	margin: 15px 0;
 }
 
-.products-panel .products-item {
+.products-box > div div {
 	line-height: 30px;
 	text-transform: uppercase;
 	text-align: center;
@@ -423,42 +446,6 @@ footer {
 	margin-top: 50px
 }
 
-.services-item input:checked+label span {
-	color: gray;
-}
-
-.services-item label:hover:after,
-.services-item input:checked+label span:hover:after {
-	font-family: FontAwesome, sans-serif;
-	content: "\f078";
-	position: absolute;
-	width: 24px;
-	height: 24px;
-	right: 10px;
-	top: 7px;
-}
-
-.services-item input:checked+label:hover:after {
-	content: "\f077";
-}
-
-.services-item input {
-	display: none;
-}
-
-.services-item article {
-	overflow: hidden;
-	max-height: 0;
-	position: relative;
-	z-index: 10;
-	transition: height 0.3s ease-in-out;
-}
-
-.services-item input:checked~article {
-	max-height: 800px;
-	transition: max-height 0.5s ease-in-out;
-}
-
 @media (max-width: 1080px) {
 	.wrapper {
 		height: 40vw;
@@ -469,9 +456,6 @@ footer {
 	.lines {
 		width: 40%;
 	}
-	.services-panel .services-item {
-		margin: 1vw;
-	}
 	.menu {
 		font-size: 20px;
 	}
@@ -479,22 +463,15 @@ footer {
 		margin-left: 25px;
 	}
 	
-	.services-item input:checked~.ac-large {
-	height: 45vw;
+	.services-panel > div input:checked~.ac-large {
+	max-height: 800px
 }
 	.services-panel {
 		padding: 1vw;
 		flex-direction: column;
 	}
-	.services-panel .services-item {
+	.services-panel > div {
 		margin: 25px 0;
-	}
-	.services-panel .services-item .text {
-		height: 65px
-	}
-	
-	.services-item input:checked~.ac-large {
-		height: 588px;
 	}
 	.slider {
 		margin-top: 50px;
