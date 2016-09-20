@@ -273,13 +273,6 @@ a.link-decorator {
 	height: 10px;
 }
 
-/*
-.read-more-about-btn {
-	float: left;
-	margin: auto 2%;
-}
-*/
-
 .lines {
 	width: 45%;
 }
@@ -349,22 +342,6 @@ a.link-decorator {
 	margin-bottom: 15px;
 }
 
-/*
-.services-panel .services-item .pre-topic {
-	margin-right: 80px;
-}
-*/
-
-/*
-.services-panel .services-item .topic-text {
-	font-weight: bold;
-	text-transform: uppercase;
-	padding-left: 10%;
-	padding-top: 20px;
-	transition: height 0.7s;
-}
-*/
-
 .services-panel .services-item .text {
 	text-align: left;
 	position: relative;
@@ -385,15 +362,6 @@ a.link-decorator {
 	-webkit-box-orient: vertical;
 }
 
-/*
-.read-more-btn {
-	text-decoration: none;
-	color: #373435;
-	padding-left: 10%;
-	font-weight: bold;
-}
-*/
-
 .services-panel .services-item label {
 	margin: 1vw auto;
 	position: relative;
@@ -413,13 +381,6 @@ a.link-decorator {
 	-webkit-line-clamp: 2;
 	-webkit-box-orient: vertical;
 }
-
-/*
-.read-more-btn span {
-	color: red;
-	margin-left: 5px;
-}
-*/
 
 .products span {
 	text-transform: uppercase;
@@ -461,17 +422,6 @@ footer {
 	position: static;
 	margin-top: 50px
 }
-
-/*
-.top-link-decorator {
-	background-color: #ed3237;
-	text-decoration: none;
-	color: white;
-	padding: 0.3%;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-}
-*/
 
 .services-item input:checked+label span {
 	color: gray;
