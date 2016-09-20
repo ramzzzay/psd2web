@@ -273,10 +273,12 @@ a.link-decorator {
 	height: 10px;
 }
 
+/*
 .read-more-about-btn {
 	float: left;
 	margin: auto 2%;
 }
+*/
 
 .lines {
 	width: 45%;
@@ -347,10 +349,13 @@ a.link-decorator {
 	margin-bottom: 15px;
 }
 
+/*
 .services-panel .services-item .pre-topic {
 	margin-right: 80px;
 }
+*/
 
+/*
 .services-panel .services-item .topic-text {
 	font-weight: bold;
 	text-transform: uppercase;
@@ -358,6 +363,7 @@ a.link-decorator {
 	padding-top: 20px;
 	transition: height 0.7s;
 }
+*/
 
 .services-panel .services-item .text {
 	text-align: left;
@@ -379,21 +385,41 @@ a.link-decorator {
 	-webkit-box-orient: vertical;
 }
 
+/*
 .read-more-btn {
 	text-decoration: none;
 	color: #373435;
 	padding-left: 10%;
 	font-weight: bold;
 }
+*/
 
 .services-panel .services-item label {
 	margin: 1vw auto;
+	position: relative;
+	display: block;
+	display: -webkit-box;
+	cursor: pointer;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 30px;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	overflow: hidden;
+	max-height: 3.6em;
+	line-height: 1.8em;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
 }
 
+/*
 .read-more-btn span {
 	color: red;
 	margin-left: 5px;
 }
+*/
 
 .products span {
 	text-transform: uppercase;
@@ -436,6 +462,7 @@ footer {
 	margin-top: 50px
 }
 
+/*
 .top-link-decorator {
 	background-color: #ed3237;
 	text-decoration: none;
@@ -444,25 +471,7 @@ footer {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
-
-.services-item label {
-	position: relative;
-	display: block;
-	display: -webkit-box;
-	cursor: pointer;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-align: left;
-	padding-left: 15px;
-	padding-right: 30px;
-	text-overflow: ellipsis;
-	word-wrap: break-word;
-	overflow: hidden;
-	max-height: 3.6em;
-	line-height: 1.8em;
-	-webkit-line-clamp: 2;
-	-webkit-box-orient: vertical;
-}
+*/
 
 .services-item input:checked+label span {
 	color: gray;
@@ -498,14 +507,6 @@ footer {
 .services-item input:checked~article {
 	max-height: 800px;
 	transition: max-height 0.5s ease-in-out;
-}
-
-.services-item article p {
-	font-style: italic;
-	color: #777;
-	line-height: 23px;
-	font-size: 14px;
-	padding: 20px;
 }
 
 @media (max-width: 1080px) {
