@@ -369,7 +369,8 @@ a.link-decorator {
 	cursor: pointer;
 	font-weight: bold;
 	text-align: left;
-	padding: 0 1vw;
+	padding-left: 15px;
+	padding-right: 20px;
 	text-overflow: ellipsis;
 	word-wrap: break-word;
 	overflow: hidden;
@@ -405,7 +406,8 @@ a.link-decorator {
 .ac-more-info {
 	position: relative;
 	bottom: -20px;
-	padding: 0 1vw;
+	padding-left: 15px;
+	padding-right: 20px;
 }
 
 
@@ -456,7 +458,8 @@ footer {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: left;
-	padding: 0 3vw;
+	padding-left: 15px;
+	padding-right: 20px;
 	text-overflow: ellipsis;
 	word-wrap: break-word;
 	overflow: hidden;
@@ -466,8 +469,7 @@ footer {
 	-webkit-box-orient: vertical;
 }
 
-.item input:checked+label span,
-.item input:checked+label span:hover {
+.item input:checked+label span {
 	color: gray;
 }
 
