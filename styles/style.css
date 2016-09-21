@@ -31,15 +31,6 @@ a:hover {
 	padding: 2% 2% 5% 2%;
 }
 
-.full-round-border {
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	-webkit-box-shadow: -14px 12px 0 0 #d3d3d3;
-	-moz-box-shadow: -14px 12px 0 0 #d3d3d3;
-	box-shadow: -14px 12px 0 0 #d3d3d3;
-}
-
 .half-round-border {
 	-moz-border-radius: 10px 0 10px 10px;
 	-webkit-border-radius: 10px 0 10px 10px;
