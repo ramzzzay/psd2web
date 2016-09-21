@@ -502,7 +502,7 @@ footer {
 	}
 	.products-box>div:nth-child(n) {
 		flex-direction: column;
-		margin: 85px 0;
+		margin: 70px 0;
 	}
 	.products-box>div div {
 		margin: 5px 0;
