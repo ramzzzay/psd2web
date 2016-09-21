@@ -24,6 +24,13 @@ a {
 	text-transform: uppercase;
 }
 
+
+a:hover {
+	color: orange;
+}
+
+
+
 .content {
 	background-color: #ebebeb;
 	-moz-border-radius: 10px;
@@ -84,15 +91,11 @@ a {
 	text-decoration: none;
 }
 
-a.first {
+.menu a.first {
 	color: red;
 }
 
-a:hover {
-	color: orange;
-}
-
-a.first:hover {
+.menu a.first:hover {
 	color: pink;
 }
 
@@ -201,6 +204,7 @@ a.first:hover {
 	position: absolute;
 	width: inherit;
 	z-index: 0;
+	-ms-transform: scale(1.5);
 	-webkit-transform: scale(1.5);
 	-moz-transform: scale(1.5);
 	-o-transform: scale(1.5);
@@ -222,11 +226,7 @@ a.first:hover {
 	transform: scale(1);
 }
 
-.products > h1 + div,
-.services > h1 + div,
-.ac-large > img + div,
-.home > span + div,
-.about > span + div{
+.text {
 	color: #919191;
 }
 
@@ -257,7 +257,7 @@ a.first:hover {
 	margin-bottom: 50px;
 }
 
-a.link-decorator {
+.link-decorator {
 	background-color: #ed3237;
 	text-decoration: none;
 	color: white;
@@ -269,7 +269,7 @@ a.link-decorator {
 
 .read-more-panel {
 	font-size: 1vw;
-	margin: 50px 0px;
+	margin: 50px 0;
 	height: 30px;
 }
 
@@ -304,11 +304,10 @@ a.link-decorator {
 	text-align: left;
 }
 
-.icon {
+.about-panel .about-icon {
 	color: white;
 	background-color: #373435;
 	font-size: 2em !important;
-	/*For override font-awesome style*/
 	padding: 20px;
 	float: left;
 	margin-right: 25px;
@@ -366,6 +365,8 @@ a.link-decorator {
 	max-height: 3.6em;
 	line-height: 1.8em;
 	-webkit-line-clamp: 2;
+	-ms-box-orient: vertical;
+	-moz-box-orient: vertical;
 	-webkit-box-orient: vertical;
 }
 
@@ -435,7 +436,6 @@ a.link-decorator {
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	border: 0.1px solid #e2e2e2;
-	/* TODO: there padding and margin must be! */
 	margin: 0 5px;
 	padding: 0 10px;
 }
@@ -443,7 +443,7 @@ a.link-decorator {
 footer {
 	color: white;
 	position: static;
-	margin-top: 50px
+	margin-top: 50px;
 }
 
 @media (max-width: 1080px) {
@@ -462,9 +462,9 @@ footer {
 	.menu a {
 		margin-left: 25px;
 	}
-	
+
 	.services-panel > div input:checked~.ac-large {
-	max-height: 800px
+		max-height: 800px;
 }
 	.services-panel {
 		padding: 1vw;
@@ -477,12 +477,12 @@ footer {
 		margin-top: 50px;
 		height: 390px;
 	}
-	
+
 	.about-panel {
 		flex-direction: column;
 	}
-	
+
 	.about-panel .about-panel-column{
-		margin-bottom:25px;	
+		margin-bottom:25px;
 	}
 }
