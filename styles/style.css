@@ -84,7 +84,6 @@ a:hover {
 }
 
 .topic {
-	display: block;
 	font-size: 2.5em;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -219,8 +218,9 @@ a:hover {
 	margin: 1vw auto 0 auto;
 	display: -webkit-box;
 	text-align: left;
-	padding-left: 15px;
+	padding-left: 30px;
 	padding-right: 30px;
+	padding: 0 30px;
 	text-overflow: ellipsis;
 	word-wrap: break-word;
 	overflow: hidden;
@@ -373,7 +373,7 @@ a:hover {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: left;
-	padding-left: 15px;
+	padding-left: 30px;
 	padding-right: 35px;
 	text-overflow: ellipsis;
 	word-wrap: break-word;
@@ -431,7 +431,7 @@ a:hover {
 
 .ac-more-info {
 	position: relative;
-	margin: 25px 30px 25px 15px;
+	margin: 25px 30px;
 }
 
 .products-box>div:nth-child(n) {
