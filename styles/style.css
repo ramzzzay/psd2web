@@ -74,11 +74,12 @@ a:hover {
 	text-decoration: none;
 }
 
-.menu a.first {
+.menu a:first-child {
 	color: red;
+	margin-left: 0;
 }
 
-.menu a.first:hover {
+.menu a:first-child:hover {
 	color: pink;
 }
 
@@ -215,7 +216,7 @@ a:hover {
 }
 
 .ac-large>.text {
-	margin: 1vw auto;
+	margin: 1vw auto 0 auto;
 	display: -webkit-box;
 	text-align: left;
 	padding-left: 15px;
@@ -373,7 +374,7 @@ a:hover {
 	text-transform: uppercase;
 	text-align: left;
 	padding-left: 15px;
-	padding-right: 30px;
+	padding-right: 35px;
 	text-overflow: ellipsis;
 	word-wrap: break-word;
 	overflow: hidden;
@@ -390,9 +391,7 @@ a:hover {
 .services-panel>div input:checked+label span {
 	color: gray;
 }
-
-.services-panel>div label:hover:after,
-.services-panel>div input:checked+label span:hover:after {
+.services-panel>div label:hover:after {
 	font-family: FontAwesome, sans-serif;
 	content: "\f078";
 	position: absolute;
@@ -432,7 +431,7 @@ a:hover {
 
 .ac-more-info {
 	position: relative;
-	padding: 25px 30px 25px 15px;
+	margin: 25px 30px 25px 15px;
 }
 
 .products-box>div:nth-child(n) {
