@@ -24,12 +24,9 @@ a {
 	text-transform: uppercase;
 }
 
-
 a:hover {
 	color: orange;
 }
-
-
 
 .content {
 	background-color: #ebebeb;
@@ -229,8 +226,6 @@ a:hover {
 .text {
 	color: #919191;
 }
-
-
 
 .ac-large>img+div {
 	padding-left: 15px;
