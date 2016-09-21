@@ -3,11 +3,6 @@
 	src: url('../fonts/source-sans-pro/SourceSansPro-Regular.otf');
 }
 
-.read-more-panel > div {
-	display: inline-block;
-	vertical-align: top;
-}
-
 body {
 	font-family: 'SourceSansPro', Fallback, sans-serif;
 	background: #343434 url("../images/background.png");
@@ -268,6 +263,11 @@ a:hover {
 	height: 30px;
 }
 
+.read-more-panel > div {
+	display: inline-block;
+	vertical-align: top;
+}
+
 .row{
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWPYvHnzfwAHTwMZd4g1uwAAAABJRU5ErkJggg==);
 	background-repeat: repeat-x;
@@ -393,7 +393,7 @@ a:hover {
 	max-height: 0;
 	position: relative;
 	z-index: 10;
-	transition: height 0.3s ease-in-out;
+	transition: max-height 0.3s ease-in-out;
 }
 
 .services-panel > div input:checked~article {
