@@ -279,15 +279,15 @@ a.link-decorator {
 	height: 10px;
 }
 
-.lines {
+.read-more-lines {
 	width: 45%;
 }
 
-.lines:first-child {
+.read-more-lines:first-child {
 	float: left;
 }
 
-.lines:last-child {
+.read-more-lines:last-child {
 	float: right;
 }
 
@@ -453,7 +453,7 @@ footer {
 	.about-header {
 		width: 178px;
 	}
-	.lines {
+	.read-more-lines {
 		width: 40%;
 	}
 	.menu {
