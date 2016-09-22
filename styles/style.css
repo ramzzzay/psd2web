@@ -420,7 +420,7 @@ footer {
 	margin: 15px 0;
 }
 
-.products-box>div div {
+.products-box .products-item div {
     background-color: #ebebeb;
 	line-height: 30px;
 	text-transform: uppercase;
