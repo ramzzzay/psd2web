@@ -25,11 +25,8 @@ footer {
 	position: static;
 	margin-top: 50px;
 }
-
 /*Top level classes end*/
-
 /*First level classes start*/
-
 .text, .end-of-topic
 {
 	color: #919191;
@@ -77,11 +74,8 @@ footer {
 	font-weight: bold;
     font-size: 2.5em;
 }
-
 /*First level classes end*/
-
-/*Tittle && menu start */
-
+/*Title && menu start */
 .title {
     background-color: #ebebeb;
 	font-size: 70px;
@@ -114,16 +108,14 @@ footer {
 .menu a:first-child:hover {
 	color: pink;
 }
-
-/*Tittle && menu end */
-
+/*Title && menu end */
 /*Read/View more panel start*/
 .link-decorator {
     position: relative;
     bottom: 0.2vw;
 	text-decoration: none;
 	padding: 8px;
-	font-size: 90%;
+	font-size: 0.9em;
     color: white;
     background-color: #ed3137;
 	-webkit-box-shadow: -3px 6px 0 0 #d3d3d3;
@@ -158,9 +150,7 @@ footer {
 	float: right;
 }
 /*Read/View more panel end*/
-
 /*Slider start*/
-
 .slider-container {
     position: relative;
 	height: 500px;
@@ -259,11 +249,8 @@ footer {
 	-o-transform: scale(1);
 	transform: scale(1);
 }
-
 /*Slider end*/
-
 /*About start*/
-
 .about-text {
     color: #919191;
 	margin-bottom: 25px;
@@ -320,11 +307,8 @@ footer {
 	color: red;
 	margin-left: 5px;
 }
-
 /*About end*/
-
 /*Services start*/
-
 .services-panel {
 	display: flex;
 	align-items: flex-start;
@@ -397,11 +381,8 @@ footer {
 	max-height: 800px;
 	transition: max-height 0.5s ease-in-out;
 }
-
 /*Services end*/
-
 /*Products start*/
-
 .products span {
 	text-transform: uppercase;
 	color: #ed3237;
@@ -449,7 +430,6 @@ footer {
 	margin: 0 5px;
 	padding: 0 10px;
 }
-
 /*Products end*/
 
 @media (max-width: 1080px) {
