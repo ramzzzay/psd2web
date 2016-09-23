@@ -447,7 +447,13 @@ footer {
 }
 /*Products end*/
 
-@media (max-width: 1080px) {
+@media screen and (max-width: 1600px) {
+    .link-decorator {
+        bottom: 0;
+    }
+}
+
+@media (max-width: 1280px) {
 	.slider-container {
 		height: auto;
 	}
@@ -473,6 +479,7 @@ footer {
 	}
 
 	.services-panel {
+        display: inherit;
 		padding: 1vw;
 		flex-direction: column;
 	}
@@ -488,6 +495,7 @@ footer {
 	}
 
 	.about-panel {
+        display: inherit;
 		flex-direction: column;
 	}
 
@@ -510,10 +518,8 @@ footer {
     .products-box .products-item div {
         margin: 8px 5px;
     }
-}
 
-@media screen and (max-width: 1600px) {
     .link-decorator {
-        bottom: 0;
+        bottom: 8px;
     }
 }
