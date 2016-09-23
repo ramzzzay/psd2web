@@ -523,3 +523,15 @@ footer {
         bottom: 8px;
     }
 }
+
+@media (max-width: 1000px) {
+    .link-decorator {
+        bottom: 5px;
+    }
+}
+
+@media (max-width: 850px) {
+    .link-decorator {
+        bottom: 0;
+    }
+}
