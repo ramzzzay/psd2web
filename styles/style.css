@@ -299,7 +299,6 @@ footer {
 .more-info-btn {
 	text-decoration: none;
 	color: #373435;
-	/*font-size: 1.2em;*/
 	font-weight: bold;
 }
 
@@ -409,6 +408,10 @@ footer {
 .ac-more-info {
 	position: relative;
 	margin: 25px 30px;
+}
+
+.products-box {
+    font-weight:bold;
 }
 
 .products-box>div:nth-child(n) {
